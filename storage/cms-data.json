@@ -1,0 +1,3077 @@
+{
+  "homepage": {
+    "hero": {
+      "badgeText": "PREMIUM SOFTWARE DEVELOPMENT COMPANY IN BANGLADESH",
+      "headline": "We Engineer Custom Software Solutions That",
+      "highlightText": "Scale Your Business.",
+      "subtitle": "From bespoke ERP architectures and high-throughput commerce engines to dedicated offshore development teams. We engineer robust, enterprise-grade digital systems built for reliability.",
+      "primaryBtnText": "Start a Project",
+      "primaryBtnUrl": "/get-a-quote",
+      "secondaryBtnText": "View Case Studies",
+      "secondaryBtnUrl": "/case-studies",
+      "floatingBadge1": {
+        "title": "Zero Downtime",
+        "subtitle": "99.98% SLA Guarantee"
+      },
+      "floatingBadge2": {
+        "title": "Enterprise AI Ready",
+        "subtitle": "Private LLM & RAG Pipelines"
+      }
+    },
+    "stats": [
+      {
+        "value": "120+",
+        "label": "Software Systems Delivered",
+        "subtext": "Across 8 global markets"
+      },
+      {
+        "value": "99.98%",
+        "label": "Platform Uptime SLA",
+        "subtext": "Zero-downtime deployments"
+      },
+      {
+        "value": "90%+",
+        "label": "Client Retention Rate",
+        "subtext": "Long-term tech partnership"
+      },
+      {
+        "value": "< 24h",
+        "label": "Consultant Response SLA",
+        "subtext": "Direct engineering contact"
+      }
+    ],
+    "processHeadline": "Our Predictable Engineering Lifecycle",
+    "processSubtitle": "Transparent, milestone-based execution with weekly demo sprints and continuous deployment."
+  },
+  "company": {
+    "name": "SmartEdge Bangladesh",
+    "tagline": "Engineering Digital Products. Building Long-Term Partnerships.",
+    "aboutText": "SmartEdge Bangladesh is an engineering-first software development agency headquartered in Dhaka. Founded by senior software engineers, we build mission-critical enterprise systems, multi-branch ERPs, and cloud-native digital platforms for ambitious businesses across 8 global markets.",
+    "mission": "To eliminate manual operational friction through bulletproof, scalable, and beautifully designed custom software.",
+    "vision": "To be the most reliable, respected, and technically proficient software partner in South Asia.",
+    "email": "info@smartedgebangladesh.com",
+    "phone": "+8801743589784",
+    "whatsappLink": "https://wa.me/8801743589784?text=Hello%20SmartEdge%20team",
+    "address": "1294 Rokeya Sharani, Mirpur-10, Dhaka-1216, Next to Metro Pillar No. 267, Dhaka, Bangladesh 1216",
+    "addressShort": "1294 Rokeya Sharani, Mirpur-10, Dhaka-1216",
+    "foundedYear": "2018",
+    "headquarters": "Mirpur-10, Dhaka, Bangladesh",
+    "stats": [
+      {
+        "label": "Years of Engineering Excellence",
+        "value": "8+",
+        "suffix": "Years"
+      },
+      {
+        "label": "High-Performance Systems Delivered",
+        "value": "120+",
+        "suffix": "Projects"
+      },
+      {
+        "label": "Client Long-Term Retention",
+        "value": "98%",
+        "suffix": "Retention"
+      },
+      {
+        "label": "Global Markets Actively Served",
+        "value": "8",
+        "suffix": "Countries"
+      }
+    ],
+    "globalMarkets": [
+      {
+        "country": "Bangladesh",
+        "role": "Primary Engineering Hub & Headquarters",
+        "code": "BD"
+      },
+      {
+        "country": "United States",
+        "role": "Enterprise Software & SaaS Clients",
+        "code": "US"
+      },
+      {
+        "country": "United Kingdom",
+        "role": "FinTech & Digital Commerce Delivery",
+        "code": "UK"
+      },
+      {
+        "country": "United Arab Emirates",
+        "role": "Enterprise ERP & Supply Chain",
+        "code": "AE"
+      },
+      {
+        "country": "Australia",
+        "role": "Cloud Web Platforms & Dedicated Teams",
+        "code": "AU"
+      },
+      {
+        "country": "Canada",
+        "role": "SaaS Product Engineering",
+        "code": "CA"
+      },
+      {
+        "country": "Singapore",
+        "role": "Logistics & Cross-Border Tech",
+        "code": "SG"
+      },
+      {
+        "country": "European Union",
+        "role": "Healthcare & Corporate Systems",
+        "code": "EU"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "custom-software-development",
+      "title": "Custom Software Development",
+      "shortDescription": "Tailor-made software solutions engineered specifically for your complex business logic, operational workflows, and enterprise scale.",
+      "category": "Enterprise Engineering",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "AWS"
+      ],
+      "deliverables": [
+        "Full source code ownership with Git repositories",
+        "Comprehensive system architecture documentation & API specs",
+        "Automated CI/CD deployment pipelines on AWS/Cloud",
+        "Quality assurance test suites (Unit, Integration, E2E)"
+      ],
+      "features": [
+        {
+          "title": "Role-Based Access Control (RBAC)",
+          "desc": "Granular permissions, multi-tenant hierarchy, audit logs, and security controls for strict regulatory compliance."
+        },
+        {
+          "title": "API-First Architecture",
+          "desc": "Modular REST and GraphQL APIs for seamless synchronization with payment gateways, CRMs, logistics, and ERPs."
+        },
+        {
+          "title": "Automated Data Pipelines",
+          "desc": "Scheduled background workers and queue systems (BullMQ, Redis) handling heavy computations without blocking UI."
+        },
+        {
+          "title": "Enterprise Grade Encryption",
+          "desc": "AES-256 data-at-rest encryption, TLS 1.3 in-transit, secure key management, and OWASP Top 10 mitigation."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Who owns the intellectual property (IP) and source code?",
+          "a": "SmartEdge transfers 100% intellectual property ownership, Git repository access, and deployment credentials to your business upon project sign-off."
+        },
+        {
+          "q": "How long does a typical custom software project take?",
+          "a": "MVPs and core platforms generally take 6 to 12 weeks, with bi-weekly milestone demos. Larger enterprise systems are delivered in modular agile releases."
+        },
+        {
+          "q": "Can you integrate with our existing third-party systems?",
+          "a": "Yes. We regularly build bi-directional connectors for SAP, Oracle, Stripe, bKash, SSLCommerz, Salesforce, HubSpot, and custom legacy APIs."
+        }
+      ]
+    },
+    {
+      "slug": "business-automation",
+      "title": "Business Automation & Workflows",
+      "shortDescription": "Automate manual, repetitive tasks across billing, inventory, HR, and customer service to eliminate errors and multiply workforce productivity.",
+      "category": "Operational Efficiency",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "n8n",
+        "Redis",
+        "BullMQ",
+        "PostgreSQL",
+        "Docker",
+        "AWS SQS",
+        "Webhooks"
+      ],
+      "deliverables": [
+        "Custom automation middleware & connector scripts",
+        "Real-time event logging and monitoring dashboard",
+        "Integration testing documentation across all endpoints",
+        "Staff onboarding walkthrough & operational handbook"
+      ],
+      "features": [
+        {
+          "title": "Event-Driven Triggers",
+          "desc": "Instant webhooks that react in real-time to customer events, payment confirmations, and status transitions."
+        },
+        {
+          "title": "Multi-Platform Middleware",
+          "desc": "Centralized orchestrator using n8n, Node.js, and queue workers for resilient fail-safe transaction processing."
+        },
+        {
+          "title": "Automated Error Alerting",
+          "desc": "Instant Slack, WhatsApp, and email alerts with automatic self-healing retries whenever a third-party endpoint fails."
+        },
+        {
+          "title": "Audit Trails & Reporting",
+          "desc": "Full execution histories and analytics visualizing how much time and operational capital is saved daily."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What systems can SmartEdge automate?",
+          "a": "We automate CRM systems (HubSpot, Salesforce), ERPs (SAP, custom), accounting (QuickBooks, Xero), courier & logistics APIs (Steadfast, Pathao, RedX, DHL), payment gateways, WhatsApp Business, and custom SQL databases."
+        },
+        {
+          "q": "What happens if a third-party service goes offline?",
+          "a": "Our queues use exponential backoff retries and dead-letter queues, ensuring no transaction is ever dropped or lost."
+        }
+      ]
+    },
+    {
+      "slug": "erp-crm-development",
+      "title": "ERP & CRM Development",
+      "shortDescription": "Enterprise Resource Planning and Customer Relationship Management platforms customized for manufacturing, trading, retail, and corporate operations.",
+      "category": "Enterprise Systems",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "Docker",
+        "AWS"
+      ],
+      "deliverables": [
+        "Custom ERP/CRM web platform and mobile executive app",
+        "Database schema and data migration from legacy spreadsheets",
+        "Role-based permission architecture and audit log engine",
+        "Executive and staff hands-on training sessions"
+      ],
+      "features": [
+        {
+          "title": "Multi-Branch & Warehouse Support",
+          "desc": "Manage multiple retail outlets, factories, and bonded warehouses from a single centralized dashboard."
+        },
+        {
+          "title": "Automated Financial Statements",
+          "desc": "Instant P&L, balance sheets, cash flow projections, and accounts receivable/payable aging reports."
+        },
+        {
+          "title": "HR & Payroll Processing",
+          "desc": "Employee attendance, biometric integration, leave tracking, salary disbursement, and payslip generation."
+        },
+        {
+          "title": "Executive BI Analytics",
+          "desc": "Visual charts depicting profit margins per SKU, sales team conversion velocity, and customer retention metrics."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can the ERP system work with offline branches?",
+          "a": "Yes! We can implement local caching or lightweight edge synchronization so POS and branch billing continue even during internet outages."
+        },
+        {
+          "q": "How secure is financial and payroll data?",
+          "a": "We implement column-level database encryption, stringent role-based access control, session timeouts, and IP whitelisting."
+        }
+      ]
+    },
+    {
+      "slug": "web-development",
+      "title": "Web Application Development",
+      "shortDescription": "Modern, lightning-fast web applications built with Next.js, React, and TypeScript for world-class user experiences and conversion.",
+      "category": "Digital Products",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Node.js",
+        "Vercel",
+        "Cloudflare"
+      ],
+      "deliverables": [
+        "Production-grade Next.js App Router codebase",
+        "Reusable UI component design system",
+        "SEO and accessibility compliance audit report",
+        "Deployment pipeline on Vercel or AWS with edge caching"
+      ],
+      "features": [
+        {
+          "title": "Core Web Vitals 95+ Score",
+          "desc": "Optimized Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP)."
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "desc": "Server-rendered metadata, OpenGraph tags, canonical links, XML sitemaps, and Schema.org structured data."
+        },
+        {
+          "title": "Smooth Micro-Interactions",
+          "desc": "Subtle, hardware-accelerated animations using Framer Motion that make the application feel modern and premium."
+        },
+        {
+          "title": "PWA (Progressive Web App) Capabilities",
+          "desc": "Offline asset caching, service workers, and install-to-homescreen capabilities for app-like usability."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why do you recommend Next.js over traditional single-page apps?",
+          "a": "Next.js offers the best of both worlds: pre-rendered HTML for instant search engine indexing and sub-second page loads, combined with dynamic React client interactivity."
+        },
+        {
+          "q": "Will the website work seamlessly on slow mobile networks?",
+          "a": "Yes. We optimize bundle sizes, implement WebP/AVIF images, and use edge caching to ensure quick rendering even on 3G connections."
+        }
+      ]
+    },
+    {
+      "slug": "mobile-app-development",
+      "title": "Mobile Application Development",
+      "shortDescription": "Native-grade iOS and Android mobile applications built using Flutter and React Native with offline sync, biometric security, and push notifications.",
+      "category": "Mobile Engineering",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "React Native",
+        "Firebase",
+        "SQLite",
+        "Node.js",
+        "REST APIs",
+        "App Store Connect"
+      ],
+      "deliverables": [
+        "Complete cross-platform Flutter/React Native source code",
+        "Published production builds on Apple App Store & Google Play Store",
+        "API backend and push notification dispatch portal",
+        "Store listing graphics, screenshots, and privacy policies"
+      ],
+      "features": [
+        {
+          "title": "Hardware Hardware Integration",
+          "desc": "Camera, GPS geolocation, QR/barcode scanning, Bluetooth thermal printers, and biometric FaceID/fingerprint."
+        },
+        {
+          "title": "Real-Time Push Notifications",
+          "desc": "Firebase Cloud Messaging (FCM) and OneSignal integration for targeted transactional and promotional alerts."
+        },
+        {
+          "title": "In-App Payment Gateways",
+          "desc": "Secure checkout integrating Apple Pay, Google Pay, Stripe, bKash, and local credit card providers."
+        },
+        {
+          "title": "Real-Time Crash Telemetry",
+          "desc": "Sentry and Firebase Crashlytics monitoring for instant crash reproduction and bug fixes."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do you publish the app under our company's developer accounts?",
+          "a": "Yes. We set up and publish the application directly under your own Apple Developer and Google Play Console accounts, ensuring 100% brand ownership."
+        },
+        {
+          "q": "Can the app work offline?",
+          "a": "Absolutely. We engineer local databases that store critical data so users can create orders or inspect data even without an active connection."
+        }
+      ]
+    },
+    {
+      "slug": "ecommerce-development",
+      "title": "E-commerce & Multi-Vendor Marketplaces",
+      "shortDescription": "High-converting online stores, multi-vendor marketplaces, and headless digital commerce platforms with seamless payment and courier integrations.",
+      "category": "Digital Commerce",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Stripe",
+        "SSLCommerz",
+        "Tailwind CSS",
+        "AWS S3"
+      ],
+      "deliverables": [
+        "Customer storefront web application + Mobile PWA",
+        "Merchant / Vendor management portal",
+        "Executive super-admin back-office",
+        "Courier and payment gateway integration configurations"
+      ],
+      "features": [
+        {
+          "title": "Multi-Gateway Payment Integration",
+          "desc": "Support for bKash, Nagad, Rocket, SSLCommerz, Stripe, PayPal, Apple Pay, and Cash on Delivery (COD)."
+        },
+        {
+          "title": "Courier API Automated Booking",
+          "desc": "Direct integration with Steadfast, Pathao, RedX, and eCourier for automated parcel generation and live tracking."
+        },
+        {
+          "title": "Smart Discount & Coupon Engine",
+          "desc": "Tiered discounts, buy-one-get-one, referral codes, flash sales, and customer group wholesale pricing."
+        },
+        {
+          "title": "Vendor Portal & Analytics",
+          "desc": "Dedicated merchant dashboards for product uploads, order processing, shipping labels, and payout requests."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you migrate our existing store from WooCommerce or Shopify to a custom Next.js stack?",
+          "a": "Yes. We execute seamless data migrations including past customer accounts, order history, products, images, and SEO URLs."
+        },
+        {
+          "q": "Does the system support Cash on Delivery (COD) with fraud prevention?",
+          "a": "Yes. We implement SMS OTP mobile verification and delivery success rate scoring to minimize fraudulent COD orders."
+        }
+      ]
+    },
+    {
+      "slug": "wordpress-development",
+      "title": "WordPress & Headless CMS Development",
+      "shortDescription": "Enterprise WordPress, custom plugin development, WooCommerce customizations, and Headless WordPress solutions with high security and speed.",
+      "category": "Content Management",
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "MySQL",
+        "Next.js",
+        "GraphQL",
+        "Tailwind CSS",
+        "Redis",
+        "Cloudflare"
+      ],
+      "deliverables": [
+        "Custom-coded WordPress theme & child theme",
+        "Custom Gutenberg block suite for marketing teams",
+        "Security hardening checklist and firewall configuration",
+        "Automated off-site backup workflow to AWS S3"
+      ],
+      "features": [
+        {
+          "title": "Custom WordPress Plugins",
+          "desc": "Tailor-made plugins for unique business calculators, customer portals, and proprietary third-party integrations."
+        },
+        {
+          "title": "Hardened Security Configuration",
+          "desc": "Database prefix masking, two-factor authentication, WP-Admin IP restrictions, and Cloudflare WAF protection."
+        },
+        {
+          "title": "Advanced Caching & CDN",
+          "desc": "Redis object caching, OPcache, and full-page edge caching delivering sub-second TTFB globally."
+        },
+        {
+          "title": "WooCommerce Optimization",
+          "desc": "High-volume WooCommerce scaling, checkout optimizations, and custom payment gateway integration."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is Headless WordPress?",
+          "a": "Headless WordPress decouples the WordPress admin backend from the public frontend. Content editors still use the familiar WordPress dashboard, while visitors experience a super-fast, modern Next.js frontend."
+        },
+        {
+          "q": "Do you keep WordPress updated safely?",
+          "a": "Yes. Our maintenance packages test all core and plugin updates in a staging environment before pushing to production."
+        }
+      ]
+    },
+    {
+      "slug": "dedicated-development-teams",
+      "title": "Dedicated Development Teams",
+      "shortDescription": "Scale your engineering capacity with vetted, full-time senior software engineers, tech leads, and QA specialists working directly with your team.",
+      "category": "Team Augmentation",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "NestJS",
+        "TypeScript",
+        "Python",
+        "Flutter",
+        "PostgreSQL",
+        "AWS",
+        "Docker"
+      ],
+      "deliverables": [
+        "Dedicated full-time software engineers working in your tools",
+        "Daily asynchronous check-ins and sprint demo participation",
+        "Weekly velocity reports and code contribution commits",
+        "On-demand senior architect architectural reviews"
+      ],
+      "features": [
+        {
+          "title": "Full-Time Dedicated Allocation",
+          "desc": "Your assigned engineers work exclusively for your company. Zero split-attention across other projects."
+        },
+        {
+          "title": "Flexible Scaling Up & Down",
+          "desc": "Easily scale your team from 2 to 10+ engineers as your development milestones require, without long-term severance liabilities."
+        },
+        {
+          "title": "Technical Lead Oversight",
+          "desc": "Every dedicated pod is supported by a SmartEdge Principal Architect conducting regular code reviews and technical guidance."
+        },
+        {
+          "title": "Complete IP & Code Protection",
+          "desc": "Standard international NDAs and proprietary IP transfer agreements ensuring your intellectual property is 100% secure."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How does communication and task management work?",
+          "a": "Your dedicated engineers join your existing collaboration stack: Slack/Teams, Jira/Linear, GitHub/GitLab, and join your daily video standups."
+        },
+        {
+          "q": "What if an engineer is not the right fit?",
+          "a": "We offer a 14-day risk-free replacement guarantee. If a candidate does not meet your expectations, we provide an immediate senior replacement at no additional cost."
+        }
+      ]
+    },
+    {
+      "slug": "saas-development",
+      "title": "SaaS Product Engineering",
+      "shortDescription": "End-to-end multi-tenant Software-as-a-Service (SaaS) architecture, subscription billing, tenant isolation, and scalable cloud infrastructure.",
+      "category": "Cloud Products",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL",
+        "Prisma",
+        "Stripe",
+        "Redis",
+        "Docker",
+        "AWS"
+      ],
+      "deliverables": [
+        "Production-ready multi-tenant SaaS platform",
+        "Stripe Billing integration with webhook handling",
+        "Admin super-portal for tenant management and revenue metrics",
+        "Comprehensive API documentation using Swagger / OpenAPI"
+      ],
+      "features": [
+        {
+          "title": "Multi-Tier Subscription Model",
+          "desc": "Configurable feature flags for Free, Pro, and Enterprise tiers with automated feature gating."
+        },
+        {
+          "title": "Team Workspaces & Invitations",
+          "desc": "Multi-user organization accounts with admin, manager, and member role privileges."
+        },
+        {
+          "title": "REST & Webhook Developer APIs",
+          "desc": "Public API key generation and webhook dispatch for enterprise customers looking to build integrations."
+        },
+        {
+          "title": "Audit Logging & SOC2 Preparedness",
+          "desc": "Immutable activity logs, data export compliance, and encryption standards required by enterprise procurement."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do you handle multi-tenancy in the database?",
+          "a": "Depending on your industry compliance requirements, we implement either shared-database with Row-Level Security (RLS) or separate database-per-tenant schemas for high-compliance enterprise clients."
+        },
+        {
+          "q": "Can you implement Single Sign-On (SSO) for corporate clients?",
+          "a": "Yes. We support SAML 2.0, Okta, Azure AD, and Google Workspace SSO integration for enterprise accounts."
+        }
+      ]
+    },
+    {
+      "slug": "ai-automation",
+      "title": "AI Integration & Intelligent Automation",
+      "shortDescription": "Empower your business with custom LLM integrations, AI agents, automated document extraction, and smart conversational assistants.",
+      "category": "Emerging Tech",
+      "technologies": [
+        "OpenAI API",
+        "LangChain",
+        "LlamaIndex",
+        "Python",
+        "FastAPI",
+        "Pinecone",
+        "pgvector",
+        "Next.js",
+        "Docker"
+      ],
+      "deliverables": [
+        "Custom AI agent backend & vector search database",
+        "Interactive conversational web widget / WhatsApp integration",
+        "Internal knowledge base indexing and document ingestion pipeline",
+        "Latency, token cost, and accuracy monitoring dashboard"
+      ],
+      "features": [
+        {
+          "title": "Proprietary Data Privacy",
+          "desc": "Zero data leakage. Enterprise API connections where your proprietary data is never used to train public foundational models."
+        },
+        {
+          "title": "Multi-Model Flexibility",
+          "desc": "Intelligently routing tasks across OpenAI GPT-4o, Anthropic Claude, and local open-source models (Llama 3) for maximum cost-performance."
+        },
+        {
+          "title": "Autonomous Action Execution",
+          "desc": "AI agents that can autonomously query your SQL database, trigger webhooks, draft emails, and update CRM records."
+        },
+        {
+          "title": "Human-in-the-Loop Review",
+          "desc": "Verification workflows flagging low-confidence extractions for human approval before finalizing transactions."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will our company data be used to train AI models?",
+          "a": "No. We utilize commercial enterprise API endpoints with zero-data-retention guarantees, ensuring your proprietary business data is never ingested for model training."
+        },
+        {
+          "q": "Can the AI agent take real actions like cancelling orders or updating databases?",
+          "a": "Yes! Using secure function calling and API middleware with strict authorization checks, our AI agents can safely query and update your systems."
+        }
+      ]
+    },
+    {
+      "slug": "software-modernization",
+      "title": "Software Modernization",
+      "shortDescription": "Transform legacy, monolithic, and obsolete codebases into modern cloud-native architectures with zero downtime and improved security.",
+      "category": "Modernization",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "PostgreSQL",
+        "AWS",
+        "Nginx"
+      ],
+      "deliverables": [
+        "Modernized cloud-native codebase with clean documentation",
+        "Historical data migration scripts and verification audit logs",
+        "Containerized Docker setup with automated CI/CD pipelines",
+        "Rollback safeguards and monitoring telemetry"
+      ],
+      "features": [
+        {
+          "title": "Zero Downtime Cutover",
+          "desc": "Dual-write synchronization pipelines ensuring continuous 24/7 business operations during the transition."
+        },
+        {
+          "title": "API Layer Wrapping",
+          "desc": "Creating modern REST and GraphQL APIs around existing legacy databases before rewriting the user interfaces."
+        },
+        {
+          "title": "Automated Regression Testing",
+          "desc": "Comprehensive test suites ensuring new code outputs the exact same business results as the legacy system."
+        },
+        {
+          "title": "Modern UI/UX Overhaul",
+          "desc": "Upgrading dated visual interfaces to clean, responsive, and mobile-friendly enterprise design standards."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will our daily business operations stop during the modernization?",
+          "a": "No. We specialize in incremental migration strategies (such as the Strangler Fig pattern) that run alongside your existing software, ensuring zero downtime for customers."
+        },
+        {
+          "q": "How do you verify historical data is not lost or corrupted?",
+          "a": "We run automated checksum verification and row-by-row comparative reconciliation algorithms before and after migration."
+        }
+      ]
+    },
+    {
+      "slug": "maintenance-support",
+      "title": "Website Maintenance & Support",
+      "shortDescription": "SLA-backed 24/7 technical monitoring, security audits, database backups, performance optimization, and bug fixing to keep your systems running flawlessly.",
+      "category": "Reliability & SRE",
+      "technologies": [
+        "AWS CloudWatch",
+        "Datadog",
+        "Sentry",
+        "Cloudflare",
+        "Docker",
+        "Linux",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "deliverables": [
+        "24/7 uptime monitoring setup with automated alerting",
+        "Geo-redundant encrypted automated database backup system",
+        "Priority ticketing access and direct engineer WhatsApp hotline",
+        "Monthly executive technical health & performance report"
+      ],
+      "features": [
+        {
+          "title": "Guaranteed Response Time SLAs",
+          "desc": "Under 15-minute response times for critical P1 emergencies and dedicated Slack/WhatsApp support channels."
+        },
+        {
+          "title": "Monthly Performance Tuning",
+          "desc": "Ongoing database query optimization, Redis cache tuning, and image asset compression to maintain 95+ Core Web Vitals."
+        },
+        {
+          "title": "Dedicated Monthly Engineering Hours",
+          "desc": "Use your included monthly hours for small feature additions, UI tweaks, promotional banners, or new payment gateways."
+        },
+        {
+          "title": "Comprehensive Health Reports",
+          "desc": "Transparent monthly executive summaries detailing uptime metrics, security incidents blocked, and work completed."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is your emergency response time?",
+          "a": "For Critical Priority 1 issues (such as total site outage or payment failure), our guaranteed engineer response time is under 15 minutes 24/7/365."
+        },
+        {
+          "q": "Can unused monthly hours roll over?",
+          "a": "Yes! Unused development support hours roll over to the following month, giving you maximum flexibility for larger upcoming feature releases."
+        }
+      ]
+    },
+    {
+      "slug": "woocommerce-development",
+      "title": "WooCommerce Development",
+      "shortDescription": "Bespoke high-performance WooCommerce online stores, custom payment gateway plugins, multi-currency checkout, and ERP synchronization.",
+      "category": "E-Commerce Engineering",
+      "technologies": [
+        "WooCommerce",
+        "WordPress",
+        "PHP 8+",
+        "MySQL",
+        "Redis",
+        "JavaScript",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "deliverables": [
+        "Custom WooCommerce theme engineered for 95+ Core Web Vitals",
+        "Local payment gateway and automated courier API integrations",
+        "Complete product catalog import and variable attributes setup",
+        "Comprehensive training for store managers on order fulfillment"
+      ],
+      "features": [
+        {
+          "title": "Custom Payment Plugins",
+          "desc": "Bespoke payment gateway extensions with automated instant IPN transaction verification."
+        },
+        {
+          "title": "Dynamic Pricing & Bulk Tier Rules",
+          "desc": "B2B wholesale pricing tiers, role-based discounts, and volume-based price breaks."
+        },
+        {
+          "title": "ERP & Inventory Synchronization",
+          "desc": "Real-time stock ledger sync between physical POS systems and the WooCommerce web store."
+        },
+        {
+          "title": "Abandoned Cart Recovery Automation",
+          "desc": "Automated WhatsApp and email reminders with unique coupon codes to recover abandoned checkouts."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can WooCommerce handle 10,000+ products and heavy traffic?",
+          "a": "Yes. When properly architected with Redis object caching, optimized database indexes, and cloud hosting, WooCommerce effortlessly scales to tens of thousands of SKUs and millions in monthly sales."
+        },
+        {
+          "q": "Do you integrate local Bangladeshi payment gateways?",
+          "a": "Yes, we integrate SSLCommerz, bKash merchant gateway, Nagad, Rocket, Aamarpay, Shurjopay, and cash-on-delivery options."
+        }
+      ]
+    },
+    {
+      "slug": "shopify-development",
+      "title": "Shopify Development",
+      "shortDescription": "Enterprise Shopify Plus store setup, bespoke Liquid themes, custom public/private Shopify Apps, and headless Hydrogen storefronts.",
+      "category": "E-Commerce Engineering",
+      "technologies": [
+        "Shopify Liquid",
+        "Remix",
+        "Node.js",
+        "GraphQL Admin API",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shopify CLI"
+      ],
+      "deliverables": [
+        "Custom responsive Shopify Theme 2.0 with modular sections",
+        "Private Shopify App for ERP or courier API synchronization",
+        "Shopify Markets internationalization and currency configuration",
+        "App store audit removing redundant apps to maximize load speed"
+      ],
+      "features": [
+        {
+          "title": "Shopify Theme 2.0 Architecture",
+          "desc": "Section-everywhere flexibility giving non-technical marketers drag-and-drop landing page control."
+        },
+        {
+          "title": "Custom Checkout Extensibility",
+          "desc": "Branded checkout upsells, post-purchase offers, and custom validation rules on Shopify Plus."
+        },
+        {
+          "title": "Automated Third-Party Logistics (3PL)",
+          "desc": "Real-time webhooks dispatching orders to fulfillment warehouses and pulling back tracking numbers."
+        },
+        {
+          "title": "Multi-Currency & Regional Markets",
+          "desc": "Shopify Markets setup with automatic localized pricing, currency conversion, and international duties."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you migrate our store from WooCommerce or Magento to Shopify?",
+          "a": "Yes! We handle 100% data migration including product catalogs, images, customer accounts, order history, and SEO 301 URL redirects."
+        },
+        {
+          "q": "Do you develop custom private Shopify apps?",
+          "a": "Yes, we develop custom private and public Shopify apps using Node.js, Remix, and the Shopify GraphQL Admin API."
+        }
+      ]
+    },
+    {
+      "slug": "laravel-development",
+      "title": "Laravel Development",
+      "shortDescription": "Enterprise PHP & Laravel web applications, multi-tenant SaaS platforms, robust RESTful APIs, and custom ERP/CRM backends.",
+      "category": "Enterprise Engineering",
+      "technologies": [
+        "PHP 8.3",
+        "Laravel 11",
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Docker",
+        "Tailwind CSS",
+        "Inertia.js"
+      ],
+      "deliverables": [
+        "Clean, well-documented Laravel application source code (100% IP transfer)",
+        "Database schema architecture diagram and migration scripts",
+        "Automated unit and feature test suites (PHPUnit / Pest)",
+        "Dockerized deployment setup with CI/CD GitHub Actions pipelines"
+      ],
+      "features": [
+        {
+          "title": "Multi-Tenant SaaS Foundation",
+          "desc": "Isolated tenant databases or tenant scoping for secure white-labeled software products."
+        },
+        {
+          "title": "Enterprise Role-Based Access Control",
+          "desc": "Granular permissions, permission inheritance, and complete security audit trail logs."
+        },
+        {
+          "title": "RESTful & GraphQL API Specifications",
+          "desc": "Standardized OpenAPI/Swagger documented endpoints powering mobile apps and integrations."
+        },
+        {
+          "title": "Automated Data Migrations & Seeders",
+          "desc": "Reproducible database schema migrations and automated test dataset seeders."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why choose Laravel over Node.js or Python?",
+          "a": "Laravel offers the industry's most elegant, productive, and mature ecosystem for complex relational business logic, database migrations, queue management, and enterprise administrative portals."
+        },
+        {
+          "q": "Can Laravel be paired with a Next.js frontend?",
+          "a": "Yes! We frequently build decoupled architectures where Laravel acts as a high-speed, secure headless API while Next.js powers a blazing-fast user interface."
+        }
+      ]
+    },
+    {
+      "slug": "erp-development",
+      "title": "ERP Development",
+      "shortDescription": "Custom Enterprise Resource Planning platforms integrating procurement, multi-warehouse inventory, accounting, and HR with zero recurring user license fees.",
+      "category": "Enterprise Systems",
+      "technologies": [
+        "Next.js",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "deliverables": [
+        "Custom Enterprise ERP Web Platform with 100% source code ownership",
+        "Historical data migration from legacy spreadsheets and databases",
+        "Barcode scanning and mobile warehouse operator interface",
+        "Comprehensive staff training workshops and operational user guides"
+      ],
+      "features": [
+        {
+          "title": "Procurement & Vendor Management",
+          "desc": "Purchase requisitions, vendor quotation comparisons, PO approvals, and goods received notes (GRN)."
+        },
+        {
+          "title": "Multi-Tier Inventory Ledger",
+          "desc": "Track items by warehouse, aisle, batch number, and expiration date with automated safety re-order triggers."
+        },
+        {
+          "title": "HR & Biometric Attendance Sync",
+          "desc": "Synchronize biometric device logs, calculate overtime, deductions, and generate automated bank salary advice."
+        },
+        {
+          "title": "Role-Based Executive Dashboards",
+          "desc": "Custom KPI dashboards for directors, branch managers, and accountants with real-time analytics."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How does a custom ERP compare to SAP or Oracle?",
+          "a": "A custom SmartEdge ERP provides your exact required operational features without the massive overhead, multi-year rollout delays, and exorbitant recurring seat licensing of foreign platforms."
+        },
+        {
+          "q": "Can our existing spreadsheet data be migrated safely?",
+          "a": "Yes. We develop automated data cleaning and migration scripts that validate and import all your historical accounts, customer records, and inventory balances."
+        }
+      ]
+    },
+    {
+      "slug": "crm-development",
+      "title": "CRM Development",
+      "shortDescription": "Custom Customer Relationship Management systems with visual deal pipelines, WhatsApp/email conversation sync, quote generation, and lead attribution.",
+      "category": "Enterprise Systems",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Tailwind CSS"
+      ],
+      "deliverables": [
+        "Custom CRM Web Application with responsive mobile access",
+        "Omnichannel lead capture integrations (Web, WhatsApp, Email, Ads)",
+        "Automated quotation and invoice generation engine",
+        "Executive sales forecasting and team performance reports"
+      ],
+      "features": [
+        {
+          "title": "Automated Lead Assignment",
+          "desc": "Distribute incoming leads round-robin or by geography and product specialization automatically."
+        },
+        {
+          "title": "WhatsApp & Email Communication Logs",
+          "desc": "Unified customer activity timeline showing all previous calls, emails, quotes, and meeting notes."
+        },
+        {
+          "title": "Sales Rep Performance Metrics",
+          "desc": "Track conversion rates, average response times, deal size, and quota attainment per representative."
+        },
+        {
+          "title": "Automated Drip Follow-Ups",
+          "desc": "Trigger email and WhatsApp nurturing sequences when leads remain inactive for specified intervals."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can the CRM integrate with our official WhatsApp Business number?",
+          "a": "Yes! We integrate official Meta WhatsApp Business Cloud API allowing your team to send and receive WhatsApp messages directly inside customer CRM profiles."
+        },
+        {
+          "q": "Can we set different access permissions for sales reps and managers?",
+          "a": "Yes. Our CRM features granular permissions where sales reps only see their assigned leads, while managers have full department oversight and forecasting access."
+        }
+      ]
+    },
+    {
+      "slug": "api-development-integration",
+      "title": "API Development & Integration",
+      "shortDescription": "Enterprise RESTful and GraphQL API engineering, secure payment gateway integrations, microservices communication, and third-party SaaS connectors.",
+      "category": "Backend Engineering",
+      "technologies": [
+        "Node.js",
+        "NestJS",
+        "TypeScript",
+        "GraphQL",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS API Gateway"
+      ],
+      "deliverables": [
+        "Production-ready API codebase with full test coverage",
+        "Interactive Swagger / Postman API documentation collections",
+        "Automated CI/CD deployment with zero-downtime rolling updates",
+        "API monitoring, rate limiting, and alerting dashboard setup"
+      ],
+      "features": [
+        {
+          "title": "High-Speed Caching Layer",
+          "desc": "Redis cache integration providing sub-50ms responses for high-frequency catalog and pricing endpoints."
+        },
+        {
+          "title": "Webhook Ingestion & Dispatch",
+          "desc": "Scalable event publishers notifying external partner software of key order, payment, and status changes."
+        },
+        {
+          "title": "Payment Gateway Connectors",
+          "desc": "Pre-built connectors for Stripe, PayPal, SSLCommerz, bKash, Nagad, and international merchant banks."
+        },
+        {
+          "title": "Comprehensive Rate Limiting & Telemetry",
+          "desc": "Token-bucket rate limiters preventing API abuse with real-time error tracking and latency metrics."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do you support GraphQL or REST?",
+          "a": "We support both! We often recommend REST for standardized resource operations and third-party public APIs, and GraphQL for complex frontend data requirements with nested relations."
+        },
+        {
+          "q": "How do you handle API rate limits from third parties?",
+          "a": "We build intelligent token-bucket queue workers (BullMQ/Redis) that pace outgoing requests precisely within third-party provider limits."
+        }
+      ]
+    },
+    {
+      "slug": "ui-ux-design",
+      "title": "UI/UX Design",
+      "shortDescription": "Human-centered digital product design, interactive Figma prototypes, design systems, usability research, and conversion-focused UX architecture.",
+      "category": "Product Design",
+      "technologies": [
+        "Figma",
+        "Design Systems",
+        "Prototyping",
+        "Wireframing",
+        "User Research",
+        "Tailwind CSS"
+      ],
+      "deliverables": [
+        "Complete Figma design system with components, typography, and color tokens",
+        "Interactive clickable prototypes for mobile, tablet, and desktop viewports",
+        "Developer handoff documentation and exported production SVG assets",
+        "Usability testing report with actionable conversion recommendations"
+      ],
+      "features": [
+        {
+          "title": "Clickable High-Fidelity Prototypes",
+          "desc": "Interactive prototypes for user testing and stakeholder buy-in before writing a single line of code."
+        },
+        {
+          "title": "WCAG Accessibility Compliance",
+          "desc": "Rigorous color contrast, readable typography scales, and keyboard-friendly navigation patterns."
+        },
+        {
+          "title": "Responsive Multi-Device Layouts",
+          "desc": "Tailored visual experiences optimized for mobile phones, tablets, laptops, and ultra-wide desktop screens."
+        },
+        {
+          "title": "Micro-Interactions & Motion Design",
+          "desc": "Subtle hover states, page transitions, and feedback animations that make applications feel alive."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What tools do you use for design?",
+          "a": "We work primarily in Figma, taking full advantage of auto-layout, component variants, design tokens, and interactive prototyping."
+        },
+        {
+          "q": "Do you design for both web and mobile apps?",
+          "a": "Yes! We specialize in responsive web applications, SaaS dashboards, and native iOS and Android mobile app interfaces."
+        }
+      ]
+    },
+    {
+      "slug": "software-testing-qa",
+      "title": "Software Testing & QA",
+      "shortDescription": "End-to-end automated testing, regression suites, API validation, performance stress testing, and rigorous security auditing.",
+      "category": "Quality Engineering",
+      "technologies": [
+        "Playwright",
+        "Cypress",
+        "Postman",
+        "Jest",
+        "k6",
+        "JMeter",
+        "GitHub Actions"
+      ],
+      "deliverables": [
+        "Automated End-to-End (E2E) test repository integrated into CI/CD",
+        "Automated API testing collection with environment variables",
+        "Load and stress testing performance benchmark report",
+        "Security vulnerability assessment and remediation checklist"
+      ],
+      "features": [
+        {
+          "title": "CI/CD Test Gate Integration",
+          "desc": "Automated GitHub Actions pipelines that block broken code from ever reaching staging or production."
+        },
+        {
+          "title": "Cross-Browser & Cross-Device Matrix",
+          "desc": "Validating user flows across Chrome, Safari, Firefox, iOS, and Android screen sizes."
+        },
+        {
+          "title": "OWASP Top 10 Security Audits",
+          "desc": "Automated and manual penetration testing checking for SQL injection, XSS, and authorization bypasses."
+        },
+        {
+          "title": "Visual Regression Testing",
+          "desc": "Pixel-by-pixel automated screenshot comparisons ensuring CSS updates never break existing layouts."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What testing frameworks do you specialize in?",
+          "a": "We specialize in modern, reliable frameworks including Playwright, Cypress, Jest, Postman/Newman, and k6 for performance testing."
+        },
+        {
+          "q": "Can you audit and add automated tests to our existing codebase?",
+          "a": "Yes! We regularly audit legacy applications, construct test matrices for core business paths, and integrate automated test gates into existing repositories."
+        }
+      ]
+    },
+    {
+      "slug": "cloud-devops",
+      "title": "Cloud & DevOps",
+      "shortDescription": "Cloud architecture, Kubernetes container orchestration, CI/CD automated deployment pipelines, infrastructure as code (IaC), and 24/7 site reliability.",
+      "category": "Cloud Engineering",
+      "technologies": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "Nginx",
+        "Cloudflare",
+        "PostgreSQL"
+      ],
+      "deliverables": [
+        "Containerized Docker setup with automated CI/CD GitHub Actions pipelines",
+        "Terraform Infrastructure as Code (IaC) configuration files",
+        "Automated encrypted backup scripts with disaster recovery blueprint",
+        "Production telemetry, logging, and incident alerting dashboard"
+      ],
+      "features": [
+        {
+          "title": "Autoscaling & Load Balancing",
+          "desc": "Elastic server scaling that adds instances dynamically during peak traffic and scales down to save costs."
+        },
+        {
+          "title": "Multi-Region Automated Backups",
+          "desc": "Encrypted daily and hourly database backups mirrored across independent geographic cloud zones."
+        },
+        {
+          "title": "24/7 Monitoring & Alerting",
+          "desc": "Real-time telemetry using Datadog, Prometheus, Grafana, and Sentry with instant WhatsApp/Slack alerts."
+        },
+        {
+          "title": "Cloud Cost Optimization (FinOps)",
+          "desc": "Comprehensive cloud audits reducing AWS and Google Cloud monthly expenditure by 30-50%."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which cloud providers do you support?",
+          "a": "We support AWS, Google Cloud Platform (GCP), Microsoft Azure, DigitalOcean, and dedicated bare-metal Linux servers."
+        },
+        {
+          "q": "Can you help reduce our existing AWS monthly bill?",
+          "a": "Yes! Our FinOps cloud audits typically identify 30% to 50% in immediate monthly savings by eliminating zombie resources and implementing reserved/savings plans."
+        }
+      ]
+    },
+    {
+      "slug": "web-application-development",
+      "title": "Web Application Development",
+      "shortDescription": "Modern, lightning-fast web applications built with Next.js, React, and TypeScript for world-class user experiences and conversion.",
+      "category": "Digital Products",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Node.js",
+        "Vercel",
+        "Cloudflare"
+      ],
+      "deliverables": [
+        "Production-grade Next.js App Router codebase",
+        "Reusable UI component design system",
+        "SEO and accessibility compliance audit report",
+        "Deployment pipeline on Vercel or AWS with edge caching"
+      ],
+      "features": [
+        {
+          "title": "Core Web Vitals 95+ Score",
+          "desc": "Optimized Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP)."
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "desc": "Server-rendered metadata, OpenGraph tags, canonical links, XML sitemaps, and Schema.org structured data."
+        },
+        {
+          "title": "Smooth Micro-Interactions",
+          "desc": "Subtle, hardware-accelerated animations using Framer Motion that make the application feel modern and premium."
+        },
+        {
+          "title": "PWA (Progressive Web App) Capabilities",
+          "desc": "Offline asset caching, service workers, and install-to-homescreen capabilities for app-like usability."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why do you recommend Next.js over traditional single-page apps?",
+          "a": "Next.js offers the best of both worlds: pre-rendered HTML for instant search engine indexing and sub-second page loads, combined with dynamic React client interactivity."
+        },
+        {
+          "q": "Will the website work seamlessly on slow mobile networks?",
+          "a": "Yes. We optimize bundle sizes, implement WebP/AVIF images, and use edge caching to ensure quick rendering even on 3G connections."
+        }
+      ]
+    },
+    {
+      "slug": "ai-development-integration",
+      "title": "AI Development & Integration",
+      "shortDescription": "Empower your business with custom LLM integrations, AI agents, automated document extraction, and smart conversational assistants.",
+      "category": "Emerging Tech",
+      "technologies": [
+        "OpenAI API",
+        "LangChain",
+        "LlamaIndex",
+        "Python",
+        "FastAPI",
+        "Pinecone",
+        "pgvector",
+        "Next.js",
+        "Docker"
+      ],
+      "deliverables": [
+        "Custom AI agent backend & vector search database",
+        "Interactive conversational web widget / WhatsApp integration",
+        "Internal knowledge base indexing and document ingestion pipeline",
+        "Latency, token cost, and accuracy monitoring dashboard"
+      ],
+      "features": [
+        {
+          "title": "Proprietary Data Privacy",
+          "desc": "Zero data leakage. Enterprise API connections where your proprietary data is never used to train public foundational models."
+        },
+        {
+          "title": "Multi-Model Flexibility",
+          "desc": "Intelligently routing tasks across OpenAI GPT-4o, Anthropic Claude, and local open-source models (Llama 3) for maximum cost-performance."
+        },
+        {
+          "title": "Autonomous Action Execution",
+          "desc": "AI agents that can autonomously query your SQL database, trigger webhooks, draft emails, and update CRM records."
+        },
+        {
+          "title": "Human-in-the-Loop Review",
+          "desc": "Verification workflows flagging low-confidence extractions for human approval before finalizing transactions."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will our company data be used to train AI models?",
+          "a": "No. We utilize commercial enterprise API endpoints with zero-data-retention guarantees, ensuring your proprietary business data is never ingested for model training."
+        },
+        {
+          "q": "Can the AI agent take real actions like cancelling orders or updating databases?",
+          "a": "Yes! Using secure function calling and API middleware with strict authorization checks, our AI agents can safely query and update your systems."
+        }
+      ]
+    },
+    {
+      "slug": "business-process-automation",
+      "title": "Business Process Automation",
+      "shortDescription": "Automate manual, repetitive tasks across billing, inventory, HR, and customer service to eliminate errors and multiply workforce productivity.",
+      "category": "Operational Efficiency",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "n8n",
+        "Redis",
+        "BullMQ",
+        "PostgreSQL",
+        "Docker",
+        "AWS SQS",
+        "Webhooks"
+      ],
+      "deliverables": [
+        "Custom automation middleware & connector scripts",
+        "Real-time event logging and monitoring dashboard",
+        "Integration testing documentation across all endpoints",
+        "Staff onboarding walkthrough & operational handbook"
+      ],
+      "features": [
+        {
+          "title": "Event-Driven Triggers",
+          "desc": "Instant webhooks that react in real-time to customer events, payment confirmations, and status transitions."
+        },
+        {
+          "title": "Multi-Platform Middleware",
+          "desc": "Centralized orchestrator using n8n, Node.js, and queue workers for resilient fail-safe transaction processing."
+        },
+        {
+          "title": "Automated Error Alerting",
+          "desc": "Instant Slack, WhatsApp, and email alerts with automatic self-healing retries whenever a third-party endpoint fails."
+        },
+        {
+          "title": "Audit Trails & Reporting",
+          "desc": "Full execution histories and analytics visualizing how much time and operational capital is saved daily."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What systems can SmartEdge automate?",
+          "a": "We automate CRM systems (HubSpot, Salesforce), ERPs (SAP, custom), accounting (QuickBooks, Xero), courier & logistics APIs (Steadfast, Pathao, RedX, DHL), payment gateways, WhatsApp Business, and custom SQL databases."
+        },
+        {
+          "q": "What happens if a third-party service goes offline?",
+          "a": "Our queues use exponential backoff retries and dead-letter queues, ensuring no transaction is ever dropped or lost."
+        }
+      ]
+    },
+    {
+      "slug": "website-maintenance-support",
+      "title": "Website Maintenance & Support",
+      "shortDescription": "SLA-backed 24/7 technical monitoring, security audits, database backups, performance optimization, and bug fixing to keep your systems running flawlessly.",
+      "category": "Reliability & SRE",
+      "technologies": [
+        "AWS CloudWatch",
+        "Datadog",
+        "Sentry",
+        "Cloudflare",
+        "Docker",
+        "Linux",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "deliverables": [
+        "24/7 uptime monitoring setup with automated alerting",
+        "Geo-redundant encrypted automated database backup system",
+        "Priority ticketing access and direct engineer WhatsApp hotline",
+        "Monthly executive technical health & performance report"
+      ],
+      "features": [
+        {
+          "title": "Guaranteed Response Time SLAs",
+          "desc": "Under 15-minute response times for critical P1 emergencies and dedicated Slack/WhatsApp support channels."
+        },
+        {
+          "title": "Monthly Performance Tuning",
+          "desc": "Ongoing database query optimization, Redis cache tuning, and image asset compression to maintain 95+ Core Web Vitals."
+        },
+        {
+          "title": "Dedicated Monthly Engineering Hours",
+          "desc": "Use your included monthly hours for small feature additions, UI tweaks, promotional banners, or new payment gateways."
+        },
+        {
+          "title": "Comprehensive Health Reports",
+          "desc": "Transparent monthly executive summaries detailing uptime metrics, security incidents blocked, and work completed."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is your emergency response time?",
+          "a": "For Critical Priority 1 issues (such as total site outage or payment failure), our guaranteed engineer response time is under 15 minutes 24/7/365."
+        },
+        {
+          "q": "Can unused monthly hours roll over?",
+          "a": "Yes! Unused development support hours roll over to the following month, giving you maximum flexibility for larger upcoming feature releases."
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "slug": "nexus-enterprise-erp-portal",
+      "title": "Nexus Enterprise ERP & Operations Suite",
+      "clientType": "Demonstration Project",
+      "industry": "Industrial Manufacturing & Supply Chain",
+      "category": "SaaS Applications",
+      "shortDescription": "Full-stack multi-tenant ERP suite with dynamic double-entry general ledger, multi-warehouse stock allocations, and executive financial telemetry.",
+      "fullDescription": "A flagship demonstration of SmartEdge's enterprise engineering capabilities. Nexus ERP coordinates multi-entity accounting, warehouse replenishment algorithms, purchase approval hierarchies, and role-based staff permissions in an ultra-responsive interface.",
+      "architecture": "Clean Hexagonal Architecture separating domain entities from PostgreSQL persistence adapters, backed by Redis caching for sub-100ms dashboard aggregations.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Real-Time Warehouse Stock & Allocation Matrix",
+          "caption": "Multi-warehouse live inventory heatmaps, batch lot tracking, and automated supplier reorder workflows.",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Executive Financial Telemetry & General Ledger",
+          "caption": "Instant multi-entity P&L, balance sheets, and real-time cash flow statements with sub-100ms response times.",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "NestJS",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "Docker"
+      ],
+      "metrics": [
+        {
+          "label": "Dashboard Query Speed",
+          "value": "< 85ms"
+        },
+        {
+          "label": "Concurrent Transactions",
+          "value": "5,000 / sec"
+        },
+        {
+          "label": "Test Coverage",
+          "value": "94%"
+        }
+      ],
+      "features": [
+        "Dynamic Multi-Entity Double-Entry Accounting Ledger",
+        "Interactive Multi-Warehouse Stock Heatmap & Batch Tracking",
+        "Automated Reorder Point Requisitions & Supplier RFQs",
+        "Granular Role-Based Access Control (RBAC) with Audit Trails"
+      ],
+      "keyOutcomes": [
+        "Eliminates reliance on fragmented spreadsheets with centralized data truth",
+        "Calculates instant P&L and Balance Sheet reports on demand",
+        "Optimized for high-volume manufacturing and trading enterprises"
+      ]
+    },
+    {
+      "slug": "aurora-omnichannel-b2c-storefront",
+      "title": "ApexCommerce High-Conversion Omnichannel Storefront",
+      "clientType": "Demonstration Project",
+      "industry": "Fashion & Consumer Lifestyle",
+      "category": "E-commerce",
+      "shortDescription": "Next.js headless digital commerce platform with 1-page checkout, bKash & SSLCommerz gateway integrations, and real-time courier dispatch.",
+      "fullDescription": "Engineered for high-volume retail brands. ApexCommerce solves cart abandonment with an optimized single-page checkout, dynamic product variant matrices, live courier parcel reservation, and localized payment gateway webhooks.",
+      "architecture": "Static generation with Incremental Static Regeneration (ISR) on Vercel, paired with a Redis queue system handling flash sale stock decrements.",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Frictionless Single-Page Checkout & Gateway Webhooks",
+          "caption": "Streamlined 1-step checkout with instant bKash, Nagad, and SSLCommerz payment reconciliation.",
+          "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Automated Courier Booking & Logistics Dispatch",
+          "caption": "Real-time Pathao and Steadfast parcel creation with automated SMS tracking and webhook delivery alerts.",
+          "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "SSLCommerz"
+      ],
+      "metrics": [
+        {
+          "label": "Lighthouse Performance",
+          "value": "99/100"
+        },
+        {
+          "label": "Checkout Conversion Lift",
+          "value": "+32%"
+        },
+        {
+          "label": "Page Load Time",
+          "value": "0.6s"
+        }
+      ],
+      "features": [
+        "Sub-second Full-Text Search with Instant Autocomplete",
+        "One-Page Frictionless Checkout with Saved Addresses",
+        "Direct API Booking for Steadfast & Pathao Couriers",
+        "Real-Time Flash Sale Countdown with Queue Locks"
+      ],
+      "keyOutcomes": [
+        "Pre-renders 10,000+ SKU product pages for instant Google SEO ranking",
+        "Zero stock overselling during aggressive flash campaigns",
+        "Automated SMS order confirmations and live WhatsApp parcel tracking"
+      ]
+    },
+    {
+      "slug": "pulseflow-ai-document-intelligence",
+      "title": "PulseFlow AI Document Parsing & Knowledge Engine",
+      "clientType": "Demonstration Project",
+      "industry": "Corporate Legal & Financial Tech",
+      "category": "AI Solutions",
+      "shortDescription": "Enterprise Retrieval-Augmented Generation (RAG) platform parsing scanned invoices, legal contracts, and corporate PDFs into structured JSON records.",
+      "fullDescription": "Leveraging modern LLMs and computer vision OCR. PulseFlow indexes gigabytes of unstructured company documents into vector embeddings, enabling natural language questions and instantaneous financial data extraction.",
+      "architecture": "FastAPI asynchronous worker pool chunking documents and generating OpenAI text-embedding-3-small embeddings into pgvector for sub-50ms cosine similarity searches.",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Vector Embeddings & Semantic Document Indexing",
+          "caption": "High-dimensional pgvector cosine similarity search enabling natural-language discovery across unstructured corporate PDFs.",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Optical Character Recognition & Automated Schema Extraction",
+          "caption": "Precision neural OCR isolating tabular data, invoices, and legal covenants into deterministic Zod/Pydantic schemas.",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "pgvector",
+        "LangChain",
+        "Next.js",
+        "TypeScript",
+        "Docker"
+      ],
+      "metrics": [
+        {
+          "label": "Extraction Accuracy",
+          "value": "99.4%"
+        },
+        {
+          "label": "Average Page Analysis",
+          "value": "1.8s"
+        },
+        {
+          "label": "Cost Per 100 Pages",
+          "value": "< $0.15"
+        }
+      ],
+      "features": [
+        "Multi-Page PDF Optical Character Recognition (OCR) with Table Parsing",
+        "Deterministic Schema Enforcement with Pydantic and Zod",
+        "Interactive Document Inspector with Bounding Box Highlights",
+        "Zero-Data-Retention Compliance for Confidential Audits"
+      ],
+      "keyOutcomes": [
+        "Replaces manual data entry teams with automated machine pipelines",
+        "Flags contract discrepancies and expired warranties automatically",
+        "Integrates directly with ERP and accounting backends via REST webhooks"
+      ]
+    },
+    {
+      "slug": "mediconnect-telehealth-mobile-app",
+      "title": "MediConnect Telehealth & Patient Prescription Suite",
+      "clientType": "Demonstration Project",
+      "industry": "Digital Health & Telemedicine",
+      "category": "Mobile Applications",
+      "shortDescription": "Cross-platform Flutter mobile application connecting patients with licensed physicians via encrypted video calls, e-prescriptions, and home medicine dispatch.",
+      "fullDescription": "A complete healthcare mobile ecosystem. Patients book verified specialist appointments, consult via WebRTC encrypted video, receive tamper-proof digital prescriptions with QR codes, and order medications with one tap.",
+      "architecture": "Clean BLoC pattern Flutter codebase interfacing with a scalable Node.js microservices backend hosted on AWS ECS with end-to-end data encryption.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Peer-to-Peer HIPAA-Compliant WebRTC Video Consultations",
+          "caption": "Low-latency encrypted video connection with real-time vitals monitoring and doctor screen-sharing.",
+          "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Tamper-Proof E-Prescriptions & Pharmacy Dispatch",
+          "caption": "QR-verified digital prescriptions integrated directly with pharmaceutical dispensary hubs for home delivery.",
+          "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "WebRTC",
+        "Firebase",
+        "Node.js",
+        "PostgreSQL",
+        "Agora SDK",
+        "REST APIs"
+      ],
+      "metrics": [
+        {
+          "label": "Native Frame Rate",
+          "value": "60 FPS"
+        },
+        {
+          "label": "Video Call Latency",
+          "value": "< 120ms"
+        },
+        {
+          "label": "Store Review Rating",
+          "value": "4.9★"
+        }
+      ],
+      "features": [
+        "Peer-to-Peer HIPAA-Compliant WebRTC Video Consultations",
+        "Doctor E-Prescription Generator with Drug-Interaction Warnings",
+        "Integrated Digital Health Record (EHR) & Lab Report Storage",
+        "Push Notifications for Medication Schedules and Appointments"
+      ],
+      "keyOutcomes": [
+        "Reduces hospital OPD congestion by shifting consultations to mobile",
+        "Instant digital prescription verification prevents counterfeit refills",
+        "Supports low-bandwidth video compression for rural cellular coverage"
+      ]
+    },
+    {
+      "slug": "autoflow-webhook-orchestration-engine",
+      "title": "AutoFlow Enterprise Integration & Webhook Middleware",
+      "clientType": "Demonstration Project",
+      "industry": "Supply Chain & Multi-Channel Retail",
+      "category": "Business Automation",
+      "shortDescription": "High-throughput event-driven integration middleware synchronizing Shopify, CRM, ERP, and local delivery fleets without manual data re-entry.",
+      "fullDescription": "Connects disparate corporate software stacks. When an order, customer inquiry, or warehouse receipt is generated anywhere in the organization, AutoFlow transforms the payload and propagates changes across all databases in real-time.",
+      "architecture": "Distributed BullMQ worker queues on Redis handling spikes of up to 10,000 webhook events per minute with zero loss and guaranteed idempotency.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Visual Node-Based Pipeline Editor",
+          "caption": "Configurable workflow logic connecting ERPs, Shopify, CRMs, and Slack webhooks with conditional rules.",
+          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "High-Throughput Event Streams & Dead-Letter Queues",
+          "caption": "BullMQ queue management processing 250,000+ daily payload events with exponential backoff auto-retries.",
+          "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "n8n",
+        "Redis",
+        "BullMQ",
+        "PostgreSQL",
+        "Docker",
+        "AWS SQS"
+      ],
+      "metrics": [
+        {
+          "label": "Events Processed Daily",
+          "value": "250K+"
+        },
+        {
+          "label": "Pipeline Reliability",
+          "value": "99.999%"
+        },
+        {
+          "label": "Execution Latency",
+          "value": "45ms"
+        }
+      ],
+      "features": [
+        "Visual Workflow Engine with Conditional Branching",
+        "Dead-Letter Queue with Exponential Backoff Auto-Retries",
+        "Real-Time Slack & WhatsApp Alerting on Pipeline Faults",
+        "Bi-Directional Synchronizer for Legacy Databases"
+      ],
+      "keyOutcomes": [
+        "Eliminates 100+ weekly hours of manual data copy-pasting",
+        "Guarantees data consistency between sales and inventory teams",
+        "Provides complete audit visibility into every synchronized transaction"
+      ]
+    },
+    {
+      "slug": "veritas-corporate-headless-cms",
+      "title": "Veritas Global Capital Headless Web & CMS Experience",
+      "clientType": "Demonstration Project",
+      "industry": "Private Equity & Financial Services",
+      "category": "Web Development",
+      "shortDescription": "Next.js corporate portal engineered for an international private equity firm with interactive portfolio data visualizations and high-grade security.",
+      "fullDescription": "A sophisticated institutional portal. Features lightning-fast static generation, interactive investment return charts, dynamic press release archives, and ironclad security safeguards for high-net-worth investors.",
+      "architecture": "Edge-rendered React Server Components with optimized WebP asset loading and client-side animated state management via Framer Motion.",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Interactive Portfolio Investment Performance Charts",
+          "caption": "Sub-second client-side Recharts visualizations displaying IRR and capital deployment for LP investors.",
+          "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Hardened Institutional Investor Portal",
+          "caption": "Next.js App Router edge architecture with Content Security Policies, biometric session locks, and WCAG AA accessibility.",
+          "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Recharts",
+        "Vercel"
+      ],
+      "metrics": [
+        {
+          "label": "Core Web Vitals",
+          "value": "100/100"
+        },
+        {
+          "label": "First Contentful Paint",
+          "value": "0.4s"
+        },
+        {
+          "label": "Mobile Usability",
+          "value": "100%"
+        }
+      ],
+      "features": [
+        "Interactive Financial Performance Charts & Portfolio Filters",
+        "Sub-second Page Transitions Powered by Next.js App Router",
+        "WCAG 2.1 AA Accessibility Compliant Navigation",
+        "Hardened Content Security Policy (CSP) & Strict Headers"
+      ],
+      "keyOutcomes": [
+        "Positions the firm as a modern, technology-forward institutional asset manager",
+        "Dramatically increases international LP engagement times on portfolio pages",
+        "Zero security vulnerabilities detected across quarterly penetration audits"
+      ]
+    },
+    {
+      "slug": "luxejoinery-custom-wordpress-portal",
+      "title": "LuxeJoinery Bespoke Architectural WordPress Platform",
+      "clientType": "Demonstration Project",
+      "industry": "Luxury Architecture & Commercial Construction",
+      "category": "WordPress",
+      "shortDescription": "Custom-coded, lightweight WordPress solution with proprietary 3D project lookbooks, zero page builder bloat, and sub-second load times.",
+      "fullDescription": "Proof that WordPress can be exceptionally fast when coded correctly. Built with custom PHP, custom Gutenberg blocks, and clean Tailwind styling without heavy, vulnerable third-party visual page builders.",
+      "architecture": "Optimized WordPress core running on PHP 8.3 with OPcache, Redis memory caching, and Cloudflare Edge Rules for instant global TTFB.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Custom Gutenberg Architectural Lookbooks",
+          "caption": "Handcrafted, zero-bloat block components allowing editors to showcase architectural millwork with sub-second page loads.",
+          "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "High-Resolution WebP Media Pipeline & Redis Caching",
+          "caption": "Proprietary image pipeline reducing page payloads by 70% while achieving a 96/100 Google PageSpeed score.",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "Tailwind CSS",
+        "JavaScript",
+        "MySQL",
+        "Redis",
+        "Cloudflare"
+      ],
+      "metrics": [
+        {
+          "label": "Page Weight",
+          "value": "< 450 KB"
+        },
+        {
+          "label": "Load Time",
+          "value": "0.85s"
+        },
+        {
+          "label": "Google PageSpeed",
+          "value": "96 / 100"
+        }
+      ],
+      "features": [
+        "100% Handcrafted Theme Without Heavy Page Builders",
+        "Custom Gutenberg Blocks for Modular Marketing Publishing",
+        "Redis Object Caching with 98% Cache Hit Ratio",
+        "Automated High-Resolution Image WebP Conversion Pipeline"
+      ],
+      "keyOutcomes": [
+        "Marketing team publishes new case studies in minutes without layout bugs",
+        "Ranked #1 for commercial joinery keywords in target metropolitan areas",
+        "Rock-solid uptime with zero plugin conflict crashes"
+      ]
+    },
+    {
+      "slug": "fintech-design-system-uiux",
+      "title": "KitePay Comprehensive B2B FinTech Design System",
+      "clientType": "Demonstration Project",
+      "industry": "Banking & Financial Technology",
+      "category": "UI/UX Design",
+      "shortDescription": "Enterprise design system featuring 120+ modular Figma components, comprehensive design tokens, and high-fidelity interactive dashboard prototypes.",
+      "fullDescription": "A complete design architecture for a digital banking and corporate treasury platform. Includes semantic color tokens, responsive data tables, dark/light theme definitions, and interactive user micro-interactions.",
+      "architecture": "Atomic design hierarchy (Atoms, Molecules, Organisms, Templates) mapped 1:1 between Figma component libraries and production React Tailwind components.",
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        {
+          "title": "Tokenized UI Component Architecture in Storybook",
+          "caption": "120+ modular Figma components paired 1:1 with TypeScript React tokens for buttons, inputs, modals, and charts.",
+          "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Accessible Financial Data Grid & Dark Mode Experience",
+          "caption": "High-density data tables passing AAA WCAG contrast standards with keyboard navigation and inline sorting.",
+          "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "technologies": [
+        "Figma",
+        "Design Tokens",
+        "Tailwind CSS",
+        "Storybook",
+        "TypeScript",
+        "React"
+      ],
+      "metrics": [
+        {
+          "label": "Component Count",
+          "value": "120+ Components"
+        },
+        {
+          "label": "Developer Handoff Time",
+          "value": "-60%"
+        },
+        {
+          "label": "Accessibility Score",
+          "value": "AAA Grade"
+        }
+      ],
+      "features": [
+        "Comprehensive Design Token Architecture (Typography, Elevation, Color, Spacing)",
+        "High-Density Financial Data Tables with Inline Filtering & Sorting",
+        "Accessible Color Contrast Passing AAA WCAG Requirements",
+        "Full Interactive Flow Prototypes for User Usability Validation"
+      ],
+      "keyOutcomes": [
+        "Accelerated engineering sprint velocity by providing pre-built tokenized UI components",
+        "Consistent branding maintained across mobile apps, web dashboards, and marketing portals",
+        "User testing showed 40% reduction in customer confusion during wire transfers"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "slug": "mk-shipping-online-ticketing-logistics",
+      "title": "MK Shipping Multi-Route Maritime Ticketing & Cargo Logistics Engine",
+      "client": "MK Shipping Lines",
+      "industry": "Logistics & Marine Transportation",
+      "duration": "4 Months",
+      "heroImage": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+      "overview": "MK Shipping Lines operates a critical passenger and cargo launch fleet connecting southern riverine hubs with the capital. With seasonal festival surges bringing overwhelming counter crowds, their legacy desktop setup frequently choked, resulting in duplicate ticket sales, manual reconciliation nightmares, and massive revenue discrepancies.",
+      "challenge": {
+        "headline": "Overwhelmed Counters, Duplicate Booking Clashes & Rural Connectivity Outages",
+        "points": [
+          "Unreliable edge connectivity at remote river ghats causing traditional cloud ticketing to hang.",
+          "Festive peak rushes (Eid travel) causing over 10x traffic spikes that crashed legacy servers.",
+          "Manual manifest preparation taking 2 hours per departure, causing vessel departure delays."
+        ],
+        "details": "The client required an omnichannel platform: instant online web and mobile booking for passengers, high-speed POS thermal counter terminals for physical ticket clerks at ghats, and a fault-tolerant offline synchronization engine capable of functioning even when cellular towers dropped."
+      },
+      "solution": {
+        "headline": "Distributed Edge-Sync Architecture with Real-Time Seat Locking",
+        "architecture": "Engineered an event-driven microservices architecture using Next.js on the frontend, NestJS with Redis distributed locks for cabin and seat reservations, and an SQLite-backed edge client for ticketing booths with automatic background delta sync.",
+        "highlights": [
+          "Distributed Redis lock prevents double booking across concurrent counters within 10 milliseconds.",
+          "Offline-tolerant POS counter client that continues issuing tickets during harbor connectivity blackouts and syncs seamlessly upon reconnection.",
+          "Automated digital passenger manifests compliant with maritime regulatory reporting standards."
+        ]
+      },
+      "results": [
+        {
+          "metric": "78% Faster Checkout",
+          "description": "Counter line waiting times dropped from an average of 14 minutes to under 3 minutes per passenger."
+        },
+        {
+          "metric": "Zero Double-Bookings",
+          "description": "100% resolution of seat conflicts across all 8 major vessels during peak festival seasons."
+        },
+        {
+          "metric": "100% Financial Reconciliation",
+          "description": "End-of-day cash and digital payment balancing automated instantly without manual audit logs."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind CSS",
+        "SSLCommerz",
+        "bKash API"
+      ],
+      "metrics": [
+        {
+          "label": "Ticket Issuance Time",
+          "value": "3.2s",
+          "change": "78% Faster"
+        },
+        {
+          "label": "Weekly Transactions",
+          "value": "40K+",
+          "change": "Zero System Crashes"
+        },
+        {
+          "label": "Revenue Leakage",
+          "value": "0%",
+          "change": "100% Audit Reconciled"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "Executive Vessel Fleet Dispatch Dashboard",
+          "caption": "Live monitoring of vessel occupancy, fuel logs, and real-time revenue across all active harbor routes.",
+          "bgGradient": "from-blue-900 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "High-Speed Counter Booking Interface",
+          "caption": "Optimized for terminal operators with instant seat selection, thermal printer triggers, and barcode verification.",
+          "bgGradient": "from-indigo-950 to-blue-900",
+          "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Passenger Mobile Ticketing Experience",
+          "caption": "Frictionless mobile booking with instant QR boarding pass delivery via WhatsApp and SMS.",
+          "bgGradient": "from-slate-900 to-sky-950",
+          "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Harbor & Ghat Field Audit",
+          "desc": "Engineers spent a week on-site at major ports documenting counter workflows and network dead-zones."
+        },
+        {
+          "title": "Distributed Consensus Design",
+          "desc": "Architected the transactional state machine to eliminate seat conflict probabilities."
+        },
+        {
+          "title": "Rapid Counter POS Prototyping",
+          "desc": "Created a keyboard-shortcut-only counter UI that prints tickets in 3 keystrokes."
+        },
+        {
+          "title": "High-Concurrency Stress Testing",
+          "desc": "Simulated 50,000 simultaneous seat checkouts during simulated festival traffic."
+        },
+        {
+          "title": "Gradual Port Cutover",
+          "desc": "Deployed terminal-by-terminal with dedicated on-ground engineers ensuring seamless adoption."
+        }
+      ],
+      "testimonial": {
+        "quote": "SmartEdge replaced our chaotic ticketing problems with an rock-solid platform. During the highest traffic peak of the year, our counters processed tens of thousands of tickets with zero lag.",
+        "author": "Operational Director",
+        "role": "Fleet Operations",
+        "company": "MK Shipping Lines"
+      }
+    },
+    {
+      "slug": "aurora-enterprise-operations-erp",
+      "title": "Aurora Operations: Multi-Plant Manufacturing & Supply Chain ERP",
+      "client": "Aurora Manufacturing Group",
+      "industry": "Manufacturing & Industrial Export",
+      "duration": "6 Months",
+      "heroImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Aurora Manufacturing operates 3 industrial fabrication and apparel production units. Managing over 4,500 active raw material SKUs through spreadsheets and disconnected accounting tools resulted in production line stoppages due to unrecorded material stockouts and inaccurate product cost estimates.",
+      "challenge": {
+        "headline": "Multi-Factory Disconnect, Fabric Waste & Delayed Export Shipments",
+        "points": [
+          "Zero real-time visibility into factory floor material consumption versus planned Bill of Materials.",
+          "Manual approval delays for chemical and fabric procurement halting assembly lines.",
+          "Export documentation errors leading to customs clearance hold-ups at Chattogram Port."
+        ],
+        "details": "The leadership required a single authoritative system linking raw material stores, production tracking, commercial export documentation, and real-time cost accounting."
+      },
+      "solution": {
+        "headline": "Unified Manufacturing Execution & Inventory Allocation Engine",
+        "architecture": "Custom web-based ERP engineered with Next.js, TypeScript, PostgreSQL, and Prisma with micro-services for inventory ledger calculations and role-based approval hierarchies.",
+        "highlights": [
+          "Live BOM calculation engine recalculating batch costs in real-time as material prices fluctuate.",
+          "Multi-warehouse requisition workflow with barcode scanning for inward, outward, and transfer movements.",
+          "Automated export document generator preparing LC, commercial invoices, and packing lists in compliance with customs standards."
+        ]
+      },
+      "results": [
+        {
+          "metric": "62% Faster Procurement",
+          "description": "Purchase order approval and vendor assignment streamlined from 12 days to under 4.5 days."
+        },
+        {
+          "metric": "38% Reduction in Dead Stock",
+          "description": "Automated minimum-order formulas prevented over-purchasing of seasonal raw materials."
+        },
+        {
+          "metric": "100% On-Time Export Deliveries",
+          "description": "Zero shipment delays due to missing paperwork or unfulfilled material inputs."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Docker",
+        "Tailwind CSS",
+        "Redis"
+      ],
+      "metrics": [
+        {
+          "label": "BOM Cost Accuracy",
+          "value": "99.7%",
+          "change": "+24% Precision"
+        },
+        {
+          "label": "Procurement Cycle",
+          "value": "4.5 Days",
+          "change": "62% Reduction"
+        },
+        {
+          "label": "Dead Stock Waste",
+          "value": "-38%",
+          "change": "$180K Annual Savings"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "Supply Chain & Factory Floor Command Center",
+          "caption": "Real-time production capacity, active orders, and material consumption rates across all 3 factory units.",
+          "bgGradient": "from-slate-900 to-emerald-950",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Interactive Bill of Materials (BOM) Configurator",
+          "caption": "Dynamic cost modeling per unit with real-time currency conversion and supplier price fluctuation alerts.",
+          "bgGradient": "from-blue-950 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Warehouse Inventory Barcode Tracking",
+          "caption": "Batch-wise roll and carton tracking with instant bin-location guidance on mobile warehouse scanners.",
+          "bgGradient": "from-navy-900 to-slate-800",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Plant Process Mapping",
+          "desc": "Mapped raw material entry, cutting, assembly, finishing, and packaging workflows across all 3 plants."
+        },
+        {
+          "title": "Schema Normalization",
+          "desc": "Designed robust relational schemas handling complex multi-unit conversions (meters, kilograms, yards, rolls)."
+        },
+        {
+          "title": "Module Development",
+          "desc": "Engineered procurement, inventory, floor tracking, and finance modules in continuous weekly sprints."
+        },
+        {
+          "title": "Data Cleanse & Migration",
+          "desc": "Migrated 8 years of historical vendor pricing and SKU catalogs into PostgreSQL."
+        },
+        {
+          "title": "Floor Operator Training",
+          "desc": "Conducted bilingual hands-on training sessions with warehouse managers and machine supervisors."
+        }
+      ],
+      "testimonial": {
+        "quote": "SmartEdge delivered an ERP that our factory supervisors actually enjoy using. We now know our exact manufacturing margins down to the last penny on every single export container.",
+        "author": "Managing Director",
+        "role": "Operations & Supply Chain",
+        "company": "Aurora Manufacturing Group"
+      }
+    },
+    {
+      "slug": "esquire-digital-commerce-engine",
+      "title": "Esquire High-Volume Omnichannel Digital Commerce Platform",
+      "client": "Esquire Electronics & Retail",
+      "industry": "Consumer Electronics & Retail",
+      "duration": "3.5 Months",
+      "heroImage": "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1200&q=80",
+      "overview": "A premier national electronics retailer with 80+ physical showrooms and high-ticket home appliance sales needed to modernize their web presence to compete with pure-play digital marketplaces while keeping physical showroom stock synchronized.",
+      "challenge": {
+        "headline": "High Cart Abandonment on High-Value Items & Fragmented Showroom Stock",
+        "points": [
+          "Complex credit card EMI installments caused 65% of potential appliance buyers to abandon cart.",
+          "Store stock not reflecting online, causing customers to order items unavailable in regional fulfillment hubs.",
+          "Slow catalog page loading (5s+) during major seasonal promotional campaigns."
+        ],
+        "details": "Selling high-value refrigerators, air conditioners, and TVs requires consumer trust, flexible financing options, accurate showroom pickup coordinates, and instant technical spec comparisons."
+      },
+      "solution": {
+        "headline": "Next.js Edge Storefront with Instant Automated Bank EMI Engine",
+        "architecture": "Architected an ultra-fast headless commerce platform using Next.js 14 App Router, Tailwind CSS, Redis caching, and an automated multi-bank EMI installment checkout gateway.",
+        "highlights": [
+          "Instant credit card 0% interest EMI calculation across 18 partner banks directly within checkout.",
+          "Store locator with real-time stock lookup enabling customers to check showroom availability nearby.",
+          "Automated courier consignment booking with Steadfast and Pathao APIs for nationwide appliance delivery."
+        ]
+      },
+      "results": [
+        {
+          "metric": "+68% Mobile Conversions",
+          "description": "Streamlined single-page checkout and instant bank EMI directly boosted mobile transactions."
+        },
+        {
+          "metric": "0.7s Average Page Load",
+          "description": "Lighthouse performance score jumped from 38 to 98, dramatically boosting organic Google search rankings."
+        },
+        {
+          "metric": "Automated Dispatch",
+          "description": "Over 80% of nationwide orders now dispatch without requiring manual customer call confirmations."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "SSLCommerz",
+        "AWS CloudFront"
+      ],
+      "metrics": [
+        {
+          "label": "Mobile Conversion Rate",
+          "value": "4.6%",
+          "change": "+68% Boost"
+        },
+        {
+          "label": "Page Speed Score",
+          "value": "98/100",
+          "change": "Sub-second LCP"
+        },
+        {
+          "label": "EMI Application Time",
+          "value": "60s",
+          "change": "Instant Approval"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "High-Conversion Appliance Storefront",
+          "caption": "Blazing fast product filtering, side-by-side spec comparison, and verified warranty badges.",
+          "bgGradient": "from-blue-900 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Integrated 0% Bank EMI Checkout",
+          "caption": "One-click bank installment selector calculating monthly tenure, down payments, and instant processing.",
+          "bgGradient": "from-slate-950 to-blue-900",
+          "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Omnichannel Showroom Inventory Locator",
+          "caption": "Live stock availability check across 80+ regional showrooms for same-day store pickup.",
+          "bgGradient": "from-sky-950 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Checkout Friction Audit",
+          "desc": "Analyzed checkout drop-off points, identifying complex installment options as the primary conversion blocker."
+        },
+        {
+          "title": "Headless Next.js Engineering",
+          "desc": "Engineered a headless frontend delivering instant filter responses and sub-second page transitions."
+        },
+        {
+          "title": "Bank Gateway Integration",
+          "desc": "Built standardized banking API adapters to calculate monthly installment amounts in real-time."
+        },
+        {
+          "title": "Warehouse ERP Sync",
+          "desc": "Connected the online catalog to the central warehouse management system with 30-second interval updates."
+        },
+        {
+          "title": "Black Friday Launch",
+          "desc": "Successfully handled a 400% traffic surge on launch week without a single dropped order."
+        }
+      ],
+      "testimonial": {
+        "quote": "SmartEdge gave us an e-commerce platform that matches global retail giants. Our online appliance sales have grown by double digits every month since launch.",
+        "author": "Head of Digital Marketing",
+        "role": "E-Commerce Division",
+        "company": "Esquire Electronics & Retail"
+      }
+    },
+    {
+      "slug": "skcomart-multi-vendor-marketplace",
+      "title": "SKCOMART Multi-Vendor B2B & B2C Marketplace",
+      "client": "SKCOMART Global",
+      "industry": "B2B & B2C Multi-Vendor Commerce",
+      "duration": "5 Months",
+      "heroImage": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1200&q=80",
+      "overview": "SKCOMART needed a robust enterprise marketplace where independent vendors could upload thousands of products, manage their own fulfillment, and receive automated payout disbursements after deducting platform commissions.",
+      "challenge": {
+        "headline": "Complex Vendor Settlement, Disputed Returns & Split Shipping Orders",
+        "points": [
+          "Customers ordering from multiple vendors in a single cart requiring intelligent multi-courier package splitting.",
+          "Holding funds in escrow until buyer confirmation to prevent vendor fraud.",
+          "Managing product attributes, variations, and catalog approvals across hundreds of unstandardized sellers."
+        ],
+        "details": "Marketplace success relies on vendor trust and buyer protection. The platform needed automated verification workflows, payout thresholds, and dispute mediation dashboards."
+      },
+      "solution": {
+        "headline": "Multi-Tenant Vendor Architecture with Automated Commission Settlement",
+        "architecture": "Next.js App Router frontend with a NestJS backend running on PostgreSQL, Redis, and BullMQ queue processing for asynchronous payout ledger reconciliations.",
+        "highlights": [
+          "Automated cart split breaking down orders into vendor-specific fulfillment packages with separate tracking IDs.",
+          "Automated vendor commission calculation with configurable tier percentage and escrow clearance periods.",
+          "Comprehensive vendor analytics showing revenue velocity, top return reasons, and customer satisfaction scores."
+        ]
+      },
+      "results": [
+        {
+          "metric": "350+ Vetted Sellers",
+          "description": "Automated KYC onboarding reduced seller activation time from 5 days to 20 minutes."
+        },
+        {
+          "metric": "100% Automated Escrow",
+          "description": "Zero financial disputes regarding commission cuts or courier shipping fee deductions."
+        },
+        {
+          "metric": "3.2x Platform Growth",
+          "description": "Architecture smoothly supported scaling to over 15,000 monthly transactions."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "Stripe Connect",
+        "Tailwind CSS",
+        "AWS S3"
+      ],
+      "metrics": [
+        {
+          "label": "Active Vendors",
+          "value": "350+",
+          "change": "Self-serve Onboarding"
+        },
+        {
+          "label": "Monthly Gross Volume",
+          "value": "$1.4M+",
+          "change": "4.2x Growth"
+        },
+        {
+          "label": "Commission Payout",
+          "value": "Automated",
+          "change": "Zero Manual Spreadsheets"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "Vendor Operations & Financial Center",
+          "caption": "Individual seller dashboard for inventory sync, shipment generation, and automated wallet withdrawals.",
+          "bgGradient": "from-navy-950 to-blue-900",
+          "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Multi-Origin Checkout Cart",
+          "caption": "Splits items by seller with independent shipping rates and estimated delivery windows.",
+          "bgGradient": "from-slate-900 to-indigo-950",
+          "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Super-Admin Marketplace Governance",
+          "caption": "Global platform overview monitoring GMV, commission revenues, seller verifications, and disputes.",
+          "bgGradient": "from-blue-950 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Marketplace Mechanics Architecture",
+          "desc": "Designed commission hierarchies, escrow retention rules, and vendor payout workflows."
+        },
+        {
+          "title": "Vendor Portal Engineering",
+          "desc": "Built an intuitive seller dashboard with bulk Excel product upload and barcode generation."
+        },
+        {
+          "title": "Split-Cart Fulfillment Engine",
+          "desc": "Engineered the checkout handler that coordinates multiple shipping origins for a single customer transaction."
+        },
+        {
+          "title": "Escrow & Banking Gateways",
+          "desc": "Integrated payment gateways with automatic vendor wallet credits upon successful delivery receipt."
+        },
+        {
+          "title": "Beta Launch with 50 Pilot Sellers",
+          "desc": "Refined the onboarding pipeline and dispute management processes."
+        }
+      ]
+    },
+    {
+      "slug": "ai-enterprise-document-intelligence",
+      "title": "CognitiveFlow: AI Enterprise Document Intelligence & Extraction",
+      "client": "FinLease International",
+      "industry": "Financial Services & Corporate Compliance",
+      "duration": "3 Months",
+      "heroImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "overview": "A corporate leasing and financial firm received thousands of multi-page commercial loan applications, including audited financial statements, tax clearance certificates, and trade licenses that previously required teams of credit analysts days to manually review.",
+      "challenge": {
+        "headline": "Document Backlogs, Fraud Risks & Inconsistent Underwriting Speed",
+        "points": [
+          "Credit analysts taking 4 to 6 hours to manually re-type balance sheet rows into credit scoring models.",
+          "Difficulty detecting tampered PDF figures or inconsistent bank account statement statements.",
+          "Loan applicants waiting up to 2 weeks for preliminary credit approvals, driving business to rivals."
+        ],
+        "details": "The client required an automated, privacy-compliant AI ingestion pipeline that extracts tabular figures, flags anomalies, and generates preliminary credit risk summaries without human delay."
+      },
+      "solution": {
+        "headline": "Vision-Language OCR & RAG Verification Pipeline",
+        "architecture": "Built a secure Python microservice utilizing vision models, LangChain, pgvector, and FastAPI connected to a Next.js underwriting dashboard.",
+        "highlights": [
+          "Advanced vision OCR capable of parsing non-standard tables, stamps, and low-resolution scans with 99.4% precision.",
+          "Automated financial sanity checking cross-referencing declared revenue against bank statement cash flow inflows.",
+          "Human-in-the-loop verification portal allowing analysts to verify flagged discrepancies with side-by-side original PDF highlights."
+        ]
+      },
+      "results": [
+        {
+          "metric": "95% Reduction in Review Time",
+          "description": "Complete application packet analysis dropped from 6 hours to under 30 seconds."
+        },
+        {
+          "metric": "10x Underwriting Scalability",
+          "description": "Firm scaled loan processing volume by 1,000% without adding headcount."
+        },
+        {
+          "metric": "Zero Data Leakage",
+          "description": "Complied with strict financial data privacy standards using zero-retention enterprise AI endpoints."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "metrics": [
+        {
+          "label": "Document Processing Time",
+          "value": "8.5s",
+          "change": "95% Faster"
+        },
+        {
+          "label": "Verification Accuracy",
+          "value": "99.4%",
+          "change": "Human-in-the-Loop"
+        },
+        {
+          "label": "Underwriting Capacity",
+          "value": "10x",
+          "change": "Zero Extra Staff"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "Credit Analyst Ingestion Portal",
+          "caption": "Side-by-side interactive PDF viewer with highlighted bounding boxes showing extracted financial values.",
+          "bgGradient": "from-blue-900 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Automated Fraud & Anomaly Audit",
+          "caption": "Cross-checks bank deposits against profit & loss statements to detect discrepancies instantly.",
+          "bgGradient": "from-indigo-950 to-blue-950",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Executive Underwriting Summary",
+          "caption": "Instant creditworthiness scoring, debt-service coverage ratio (DSCR), and recommended loan terms.",
+          "bgGradient": "from-slate-900 to-navy-950",
+          "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "Document Taxonomy Mapping",
+          "desc": "Classified 14 critical document types including tax returns, bank statements, and audit reports."
+        },
+        {
+          "title": "Custom Extraction Prompting",
+          "desc": "Engineered structured JSON schemas with zero-shot validation guardrails."
+        },
+        {
+          "title": "Anomaly Detection Algorithms",
+          "desc": "Created deterministic balance verification scripts to verify arithmetic consistency."
+        },
+        {
+          "title": "Reviewer Portal Development",
+          "desc": "Engineered a Next.js UI showing live PDF bounding boxes linked directly to extracted JSON data."
+        },
+        {
+          "title": "SOC2 Compliance Hardening",
+          "desc": "Configured automated file deletion policies and encrypted document storage on AWS S3."
+        }
+      ]
+    },
+    {
+      "slug": "fleet-telematics-dispatch-system",
+      "title": "UrbanTrans Fleet Telematics & Automated Dispatch Engine",
+      "client": "UrbanTrans Logistics",
+      "industry": "Logistics & Fleet Operations",
+      "duration": "4.5 Months",
+      "heroImage": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
+      "overview": "UrbanTrans needed an enterprise logistics platform to track 200+ delivery vehicles across regional highways, eliminate fuel pilferage, and automate delivery route assignments for drivers via mobile tablets.",
+      "challenge": {
+        "headline": "Route Inefficiencies, High Fuel Theft & Late Deliveries",
+        "points": [
+          "Drivers taking unauthorized detours and idling engines, leading to astronomical fuel expenditures.",
+          "Dispatchers spending hours manually planning delivery stop sequences on paper maps.",
+          "Customers constantly calling dispatchers because of zero real-time delivery visibility."
+        ],
+        "details": "Commercial trucking requires live telemetry, geofence breach notifications, and automated route optimization algorithms to minimize kilometer travel per drop."
+      },
+      "solution": {
+        "headline": "IoT Telematics Ingestion & Real-Time Leaflet Fleet Map",
+        "architecture": "High-throughput Node.js microservice handling thousands of GPS packets per second, feeding a Next.js live control tower with WebSockets.",
+        "highlights": [
+          "Live interactive fleet map tracking vehicles with sub-3 second updates, speed alerts, and route playback.",
+          "Automated route optimization sequencing delivery stops to minimize fuel and driving time.",
+          "Driver mobile app providing turn-by-turn stop guidance, digital Proof of Delivery (e-POD), and barcode parcel scans."
+        ]
+      },
+      "results": [
+        {
+          "metric": "18% Fuel Cost Savings",
+          "description": "Route optimization and idle-engine alerts cut monthly diesel fuel expenses substantially."
+        },
+        {
+          "metric": "97.8% On-Time Arrival",
+          "description": "Automated routing helped drivers avoid highway congestion and bottlenecks."
+        },
+        {
+          "metric": "Zero Paper PODs",
+          "description": "All delivery confirmations available instantly in the billing system, accelerating customer invoicing."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Redis",
+        "PostgreSQL",
+        "WebSockets",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "metrics": [
+        {
+          "label": "Fuel Expenses",
+          "value": "-18%",
+          "change": "Optimized Routes"
+        },
+        {
+          "label": "On-Time Deliveries",
+          "value": "97.8%",
+          "change": "+21% Improvement"
+        },
+        {
+          "label": "Vehicle Downtime",
+          "value": "-34%",
+          "change": "Predictive Maintenance"
+        }
+      ],
+      "screenshots": [
+        {
+          "title": "Live Fleet Dispatch & Telemetry Control Tower",
+          "caption": "Map showing real-time truck locations, current speeds, remaining fuel levels, and geofence alerts.",
+          "bgGradient": "from-blue-900 to-slate-900",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Automated Route Optimizer",
+          "caption": "Algorithmically sequences multi-stop delivery drop-offs to cut travel distance and toll fees.",
+          "bgGradient": "from-slate-950 to-indigo-900",
+          "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Driver Digital Proof of Delivery (e-POD)",
+          "caption": "Mobile interface capturing customer recipient signatures, photos of delivered goods, and timestamped GPS coordinates.",
+          "bgGradient": "from-navy-950 to-sky-950",
+          "image": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80"
+        }
+      ],
+      "processSteps": [
+        {
+          "title": "IoT Device Integration",
+          "desc": "Configured GPS hardware protocols (OBD-II / CAN-bus) for vehicle data streaming."
+        },
+        {
+          "title": "Telemetry Stream Processor",
+          "desc": "Engineered Redis time-series database to handle high-frequency location ping streams."
+        },
+        {
+          "title": "Control Tower UI Design",
+          "desc": "Created an intuitive dispatcher interface with color-coded vehicle statuses and traffic overlays."
+        },
+        {
+          "title": "Driver App Engineering",
+          "desc": "Built an offline-capable React Native mobile app with digital signatures and camera photo proof."
+        },
+        {
+          "title": "Fleet Pilot Deployment",
+          "desc": "Deployed on 25 trucks before rolling out across the entire 200-vehicle fleet."
+        }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "how-custom-erp-systems-improve-operational-efficiency",
+      "title": "How Custom ERP Systems Improve Operational Efficiency for Growing Businesses",
+      "excerpt": "Why off-the-shelf software eventually caps operational scale, and how bespoke enterprise resource planning platforms unify fragmented spreadsheets into real-time operational control.",
+      "category": "Enterprise Engineering",
+      "date": "October 18, 2026",
+      "readTime": "7 min read",
+      "author": {
+        "name": "MD Shamim Islam",
+        "role": "Chief Technology Officer & Senior Software Engineer",
+        "initials": "SI"
+      },
+      "featured": true,
+      "status": "published",
+      "tags": [
+        "ERP Systems",
+        "Business Automation",
+        "PostgreSQL",
+        "Enterprise Architecture"
+      ],
+      "content": [
+        "Hey, companies frequently reach a critical operational inflection point where the very tools that helped them get started—spreadsheets, disparate off-the-shelf billing apps, and manual WhatsApp message chains—begin actively choking further expansion.",
+        "When inventory counts exist in one spreadsheet, purchase requisitions in email threads, and general ledger accounts in a legacy offline accounting tool, executive decision-makers are forced to navigate blind. Decisions regarding capital expenditure, raw material procurement, and pricing adjustments are routinely delayed by days while accounting teams attempt manual reconciliations.",
+        "Custom ERP architecture approaches this problem from first principles. Rather than forcing your business to adapt its unique operational advantages to the rigid, generic models of mass-market commercial SaaS, a custom platform is modeled directly around your exact workflow boundaries.",
+        "Key benefits of custom enterprise ERP engineering include:",
+        "1. Automated Inventory & Bill of Materials (BOM): Automatic decrementing of sub-components the moment an assembly order is finalized, preventing inventory discrepancies.",
+        "2. Real-Time Double-Entry Financial Synchronization: Invoicing, tax calculations (such as local VAT rules), and payment collections immediately post to the appropriate general ledger accounts.",
+        "3. Elimination of Per-Seat Licensing Costs: Commercial international ERPs impose exorbitant recurring fees that scale with headcount. With custom-built software, your organization owns 100% of the IP, allowing infinite internal users without additional license costs.",
+        "4. Granular Role-Based Access Control (RBAC): Warehouse clerks, sales executives, and department directors only see and edit the exact records relevant to their clearance level, ensuring strict governance and fraud prevention.",
+        "Investing in a tailor-made ERP is ultimately an investment in scalable company valuation. When systems run deterministically, management can focus on geographic expansion, customer retention, and strategic growth with total confidence in their operational foundation."
+      ],
+      "keyTakeaways": [
+        "Fragmented spreadsheets inevitably create data silos and delayed financial closes.",
+        "Domain-driven custom ERPs eliminate per-user software licensing overhead permanently.",
+        "Automated inventory decrementing prevents costly stockouts and dead-stock write-downs."
+      ],
+      "id": "blog-1793772080488"
+    },
+    {
+      "slug": "how-ai-agents-rag-transforming-modern-software",
+      "title": "How AI Agents & RAG Are Revolutionizing Modern Enterprise Software",
+      "excerpt": "Moving beyond generic chatbots: How Retrieval-Augmented Generation (RAG) and autonomous tool-calling agents allow companies to query proprietary documents with zero hallucination.",
+      "category": "AI & Automation",
+      "date": "October 12, 2026",
+      "readTime": "6 min read",
+      "author": {
+        "name": "Nahyan Ahmed",
+        "role": "Chief Executive Officer (CEO)",
+        "initials": "NA"
+      },
+      "featured": true,
+      "status": "published",
+      "tags": [
+        "Generative AI",
+        "RAG",
+        "OpenAI",
+        "Vector Databases",
+        "LangChain"
+      ],
+      "content": [
+        "Over the past two years, enterprise interest in artificial intelligence has shifted rapidly from experimental novelty chatbots to deep operational workflow integration.",
+        "The primary roadblock facing enterprise adoption of foundational large language models (LLMs) has always been their tendency to hallucinate and their complete lack of access to an organization's proprietary, real-time internal documents. Public models cannot safely answer questions regarding specific supplier contracts, inventory availability, or company warranty clauses.",
+        "This is where Retrieval-Augmented Generation (RAG) fundamentally transforms enterprise computing. By pairing vector search engines (such as pgvector or Pinecone) with LLMs, the system retrieves exact factual excerpts from your private PDF documents and database tables before formulating an answer.",
+        "Furthermore, the emergence of Autonomous AI Agents allows models not only to summarize text, but to safely perform operational actions through function calling. An AI agent can verify an invoice number against a bank statement, check if goods were received in the warehouse database, and automatically draft a vendor approval voucher for human authorization.",
+        "Crucially, enterprise-grade AI architecture requires strict data privacy governance. At SmartEdge, all AI integrations utilize zero-retention enterprise endpoints, ensuring that proprietary corporate data is never ingested to train public foundation models."
+      ],
+      "keyTakeaways": [
+        "RAG bridges the gap between public language models and private company documentation.",
+        "Autonomous agents can execute database queries and trigger workflow webhooks safely.",
+        "Enterprise zero-data-retention agreements guarantee confidentiality of corporate IP."
+      ]
+    },
+    {
+      "slug": "essential-security-measures-modern-web-applications",
+      "title": "Essential Security Measures Every Modern Web Application Must Implement",
+      "excerpt": "A comprehensive checklist for engineering teams: From Content Security Policies and rate limiting to SQL injection prevention and secure session management.",
+      "category": "Security",
+      "date": "September 29, 2026",
+      "readTime": "8 min read",
+      "author": {
+        "name": "MD Shamim Islam",
+        "role": "Chief Technology Officer & Senior Software Engineer",
+        "initials": "SI"
+      },
+      "featured": false,
+      "status": "published",
+      "tags": [
+        "Web Security",
+        "OWASP",
+        "Next.js Security",
+        "Authentication"
+      ],
+      "content": [
+        "In an era where automated vulnerability scanners continuously probe internet-facing endpoints, relying on default framework settings is a recipe for catastrophic security compromises.",
+        "Modern web application security is not an afterthought to be addressed right before launch—it is an architectural discipline that must be woven into every line of code.",
+        "Here are the non-negotiable security standards we enforce at SmartEdge Bangladesh:",
+        "1. Server-Side Input Validation with Strict Schemas: Never trust client-side data. Use validation libraries like Zod on every API route and Server Action to reject malformed payloads before database execution.",
+        "2. Content Security Policy (CSP) & HTTP Headers: Enforce strict CSP headers, X-Frame-Options: DENY, X-Content-Type-Options: nosniff, and Strict-Transport-Security (HSTS) to eliminate Clickjacking and Cross-Site Scripting (XSS).",
+        "3. Rate Limiting & Distributed Brute-Force Defense: Implement Redis-backed token-bucket algorithms on authentication, OTP generation, and public inquiry forms to stop credential stuffing.",
+        "4. Secure Cookie Flags: Always configure auth tokens with HttpOnly, Secure, and SameSite=Strict to protect session cookies from malicious client-side JavaScript access.",
+        "5. Zero-Trust Database Queries: Utilize parameterized queries and ORMs (Prisma, Mongoose) to make SQL and NoSQL injections virtually impossible.",
+        "Security is a continuous posture of vigilance. By embedding automated security linters and dependency scanners into your CI/CD pipeline, vulnerabilities are caught and neutralized during development rather than in production."
+      ],
+      "keyTakeaways": [
+        "Client-side validation is for user experience; server-side validation is for security.",
+        "Rate limiting must be enforced at the edge or on critical authentication endpoints.",
+        "Strict HTTP headers and HttpOnly cookies prevent the vast majority of web attack vectors."
+      ]
+    },
+    {
+      "slug": "10-architecture-ux-features-high-converting-ecommerce",
+      "title": "10 Architecture & UX Features Behind High-Converting E-Commerce Platforms",
+      "excerpt": "Analyzing how technical speed, single-page checkouts, automated courier booking, and localized payment gateways drive 30%+ higher completed sales.",
+      "category": "Digital Commerce",
+      "date": "September 15, 2026",
+      "readTime": "5 min read",
+      "author": {
+        "name": "Farhan Tanvir",
+        "role": "Head of Software Engineering",
+        "initials": "FT"
+      },
+      "featured": false,
+      "status": "published",
+      "tags": [
+        "E-Commerce",
+        "Next.js",
+        "Conversion Rate Optimization",
+        "Payment Gateways"
+      ],
+      "content": [
+        "Online retail conversion rates are extraordinarily sensitive to micro-friction. Studies consistently demonstrate that every 100-millisecond delay in mobile page load results in a 7% drop in transaction conversion.",
+        "To build an e-commerce platform that consistently outperforms competitors, engineering teams must combine lightning-fast technical infrastructure with thoughtful, localized user experiences.",
+        "1. Sub-Second Largest Contentful Paint (LCP): Pre-render product catalogs using Next.js Incremental Static Regeneration (ISR) so that prospective customers never stare at blank loading spinners.",
+        "2. Frictionless Single-Page Checkout: Eliminate multi-step checkout pages. Present cart items, delivery address selection, and payment options on a single, responsive layout.",
+        "3. Local Payment Gateway Integration: Support both mobile financial services (bKash, Nagad) with instant OTP verification and international credit cards via SSLCommerz and Stripe.",
+        "4. Automated Courier API Synchronization: Integrate directly with leading couriers (Steadfast, Pathao, RedX) to generate tracking numbers automatically upon order confirmation.",
+        "5. Automated Cash on Delivery (COD) Fraud Screening: Implement phone number verification and past delivery success rate scoring to filter out high-risk fraudulent orders before dispatch.",
+        "By eliminating friction at every step of the buyer journey, businesses see substantial improvements in return on ad spend (ROAS) and customer lifetime value."
+      ],
+      "keyTakeaways": [
+        "Sub-second page speeds directly correlate with higher checkout conversion rates.",
+        "Single-page checkout reduces mobile cart abandonment by up to 30%.",
+        "Automated courier API integrations eliminate manual warehouse paperwork."
+      ]
+    },
+    {
+      "slug": "migrating-legacy-monoliths-to-cloud-native-microservices",
+      "title": "Migrating Legacy Monoliths to Cloud-Native Microservices Without Downtime",
+      "excerpt": "A pragmatic guide to the Strangler Fig pattern: How to safely decompose fragile legacy codebases into modern TypeScript and containerized microservices.",
+      "category": "Cloud Architecture",
+      "date": "August 28, 2026",
+      "readTime": "9 min read",
+      "author": {
+        "name": "MD Shamim Islam",
+        "role": "Chief Technology Officer & Senior Software Engineer",
+        "initials": "SI"
+      },
+      "featured": false,
+      "status": "published",
+      "tags": [
+        "Legacy Migration",
+        "Microservices",
+        "Docker",
+        "DevOps"
+      ],
+      "content": [
+        "Few engineering initiatives carry greater perceived business risk than replacing an established, mission-critical legacy software application. Management rightly fears that a 'big bang' rewrite will result in blown budgets, delayed launches, and business-halting bugs.",
+        "The solution is not to attempt a reckless overnight cutover. Instead, seasoned software architects employ the Strangler Fig migration pattern.",
+        "By placing an API Gateway (such as Nginx or AWS API Gateway) in front of the existing legacy system, engineers can intercept requests and route them incrementally to newly built, modern microservices.",
+        "Step 1: Build an API Facade. Route all incoming traffic through a central reverse proxy that forwards requests to the legacy monolith by default.",
+        "Step 2: Identify High-Value, Low-Dependency Modules. Good candidates include authentication, notification dispatch, or specific reporting endpoints.",
+        "Step 3: Rebuild the Module in Modern Architecture. Engineer the replacement using Next.js, Node.js/NestJS, and containerized Docker environments with comprehensive test suites.",
+        "Step 4: Shift Traffic via Gateway Routing. Reconfigure the API gateway to route traffic for that specific capability to the new service while keeping the rest of the monolith intact.",
+        "Step 5: Repeat Until Decommissioning. Continue peeling away functionality until the legacy system is reduced to an empty shell that can be safely shut down.",
+        "This incremental approach ensures continuous 24/7 business operations, delivers immediate value to users with every sprint, and eliminates the catastrophic risks of monolithic rewrites."
+      ],
+      "keyTakeaways": [
+        "Never attempt a high-risk 'big bang' rewrite of established operational software.",
+        "The Strangler Fig pattern allows incremental modernization with zero user disruption.",
+        "Containerization and modern CI/CD ensure that each new microservice operates reliably."
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "clientName": "David Sterling",
+      "clientRole": "Head of Digital Operations",
+      "company": "Apex Retail UK",
+      "content": "SmartEdge delivered our enterprise multi-vendor commerce platform on schedule. Their engineering standards, TypeScript discipline, and daily transparency are world-class.",
+      "rating": 5,
+      "projectType": "Enterprise Commerce Engine",
+      "verified": true
+    },
+    {
+      "id": "test-2",
+      "clientName": "Syed Tanveer",
+      "clientRole": "Managing Director",
+      "company": "MK Shipping Lines",
+      "content": "The automated launch ticketing system designed by SmartEdge transformed our terminal operations. Zero ticket duplication across peak Eid travel rush handling millions in transactions.",
+      "rating": 5,
+      "projectType": "Real-Time Fleet & Ticketing Platform",
+      "verified": true
+    },
+    {
+      "id": "test-3",
+      "clientName": "Elena Rostova",
+      "clientRole": "VP of Product",
+      "company": "Nordic FinTech Group",
+      "content": "We hired 3 dedicated senior engineers from SmartEdge Bangladesh. The timezone overlap, fluent communication, and rapid velocity rival any Western European team.",
+      "rating": 5,
+      "projectType": "Dedicated Engineering Squad",
+      "verified": true
+    }
+  ],
+  "team": [
+    {
+      "id": "team-1",
+      "name": "Nahyan Ahmed",
+      "role": "Chief Executive Officer (CEO)",
+      "department": "Executive Leadership",
+      "bio": "Directs technology initiatives, business transformation strategies, and strategic partnerships for enterprise clients and high-growth companies across domestic and global markets.",
+      "initials": "NA",
+      "skills": [
+        "Executive Strategy",
+        "Software Delivery",
+        "Client Relations",
+        "Digital Transformation"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/"
+    },
+    {
+      "id": "team-2",
+      "name": "MD Shamim Islam",
+      "role": "Chief Technology Officer & Senior Software Engineer",
+      "department": "Engineering Architecture",
+      "bio": "Senior software engineer and hands-on technology architect directing high-throughput systems, distributed microservices, cloud infrastructure, and enterprise Next.js/NestJS platforms.",
+      "initials": "SI",
+      "skills": [
+        "System Architecture",
+        "Senior Software Engineering",
+        "Next.js",
+        "NestJS / Node.js",
+        "Cloud Infrastructure"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/",
+      "github": "https://github.com/smartedge-bangladesh"
+    },
+    {
+      "id": "team-3",
+      "name": "Farhan Tanvir",
+      "role": "Head of Software Engineering & Delivery",
+      "department": "Engineering Delivery",
+      "bio": "Leads agile squad execution, code review standards, CI/CD automated deployment pipelines, and full-stack software development best practices.",
+      "initials": "FT",
+      "skills": [
+        "Agile/Scrum",
+        "Full-Stack TypeScript",
+        "DevOps & CI/CD",
+        "Engineering Management"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/",
+      "github": "https://github.com/smartedge-bangladesh"
+    },
+    {
+      "id": "team-4",
+      "name": "Nayeem Abdullah",
+      "role": "Lead Mobile Applications Architect",
+      "department": "Mobile Engineering",
+      "bio": "Expert Flutter engineer with 6+ years shipping high-performance cross-platform iOS and Android applications, native plugins, and offline synchronization engines.",
+      "initials": "NA",
+      "skills": [
+        "Flutter",
+        "Dart",
+        "iOS / Android Native",
+        "BLoC",
+        "REST / WebSockets"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/",
+      "github": "https://github.com/smartedge-bangladesh"
+    },
+    {
+      "id": "team-5",
+      "name": "Sabbir Hossain",
+      "role": "Lead UI/UX & Design Systems Engineer",
+      "department": "Product Design",
+      "bio": "Crafts accessible, human-centered digital experiences, comprehensive Figma design systems, and responsive user journeys for complex SaaS products.",
+      "initials": "SH",
+      "skills": [
+        "Figma Mastery",
+        "Design Systems",
+        "User Research",
+        "Interaction Design",
+        "Prototyping"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/"
+    },
+    {
+      "id": "team-6",
+      "name": "Rifat Ahmed",
+      "role": "Senior QA Automation & Security Specialist",
+      "department": "Quality Assurance",
+      "bio": "Guarantees enterprise software quality through automated end-to-end regression suites, API load stress testing, and OWASP security auditing.",
+      "initials": "RA",
+      "skills": [
+        "Playwright",
+        "Cypress",
+        "Postman",
+        "Load Testing (k6)",
+        "OWASP Auditing"
+      ],
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/",
+      "github": "https://github.com/smartedge-bangladesh"
+    }
+  ],
+  "navigation": [
+    {
+      "id": "nav-services",
+      "label": "Services",
+      "href": "/services",
+      "order": 1,
+      "children": [
+        {
+          "id": "sub-custom",
+          "label": "Custom Software Development",
+          "href": "/services/custom-software-development",
+          "description": "Scalable enterprise web applications and portals."
+        },
+        {
+          "id": "sub-auto",
+          "label": "Business Automation",
+          "href": "/services/business-automation",
+          "description": "Eliminate manual data entry and repetitive workflows."
+        },
+        {
+          "id": "sub-erp",
+          "label": "ERP & CRM Development",
+          "href": "/services/erp-crm-development",
+          "description": "Custom enterprise inventory, accounts & billing."
+        },
+        {
+          "id": "sub-ai",
+          "label": "AI Integration & Agents",
+          "href": "/services/ai-integration",
+          "description": "Private RAG pipelines, chatbots, and automation."
+        },
+        {
+          "id": "sub-mobile",
+          "label": "Mobile App Development",
+          "href": "/services/mobile-app-development",
+          "description": "Cross-platform iOS and Android Flutter systems."
+        },
+        {
+          "id": "sub-cloud",
+          "label": "Cloud & DevOps Architecture",
+          "href": "/services/cloud-devops",
+          "description": "Zero-downtime CI/CD and AWS/Docker clusters."
+        }
+      ]
+    },
+    {
+      "id": "nav-products",
+      "label": "Products",
+      "href": "/products",
+      "order": 2,
+      "children": [
+        {
+          "id": "prod-hub",
+          "label": "SmartEdge Enterprise Hub",
+          "href": "/products/smartedge-enterprise-hub",
+          "description": "All-in-one business operations platform."
+        },
+        {
+          "id": "prod-stock",
+          "label": "SmartStock Pro",
+          "href": "/products/smartstock-pro",
+          "description": "Real-time warehouse & multi-branch inventory."
+        },
+        {
+          "id": "prod-crm",
+          "label": "EdgeCRM Growth",
+          "href": "/products/edgecrm-growth",
+          "description": "High-velocity pipeline and sales CRM."
+        },
+        {
+          "id": "prod-flow",
+          "label": "InvoiceFlow Automated",
+          "href": "/products/invoiceflow-automated",
+          "description": "Automated billing, invoicing & VAT sync."
+        }
+      ]
+    },
+    {
+      "id": "nav-portfolio",
+      "label": "Portfolio",
+      "href": "/portfolio",
+      "order": 3
+    },
+    {
+      "id": "nav-company",
+      "label": "Company",
+      "href": "/about-us",
+      "order": 4,
+      "children": [
+        {
+          "id": "sub-about",
+          "label": "About Us",
+          "href": "/about-us",
+          "description": "Our engineering story, vision, and leadership."
+        },
+        {
+          "id": "sub-cases",
+          "label": "Case Studies",
+          "href": "/case-studies",
+          "description": "Production systems, architectures, and client results."
+        },
+        {
+          "id": "sub-tech",
+          "label": "Technologies",
+          "href": "/technologies",
+          "description": "Languages, databases, and engineering standards."
+        },
+        {
+          "id": "sub-careers",
+          "label": "Careers",
+          "href": "/careers",
+          "description": "Join our senior engineering squads in Mirpur-10."
+        }
+      ]
+    },
+    {
+      "id": "nav-blog",
+      "label": "Insights",
+      "href": "/blog",
+      "order": 5
+    },
+    {
+      "id": "nav-contact",
+      "label": "Contact",
+      "href": "/contact",
+      "order": 6
+    }
+  ],
+  "footer": {
+    "aboutText": "SmartEdge Bangladesh is an engineering-first software development agency headquartered in Dhaka. We build custom ERPs, high-converting digital commerce engines, enterprise SaaS platforms, and dedicated offshore squads.",
+    "address": "1294 Rokeya Sharani, Mirpur-10, Dhaka-1216, Next to Metro Pillar No. 267, Dhaka, Bangladesh 1216",
+    "phone": "+8801743589784",
+    "email": "info@smartedgebangladesh.com",
+    "copyright": "© 2026 SmartEdge Bangladesh. All rights reserved.",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/share/18S97Y338Z/",
+      "linkedin": "https://www.linkedin.com/company/smartedge-bangladesh/",
+      "github": "https://github.com/smartedge-bangladesh",
+      "twitter": "https://twitter.com/smartedgebd"
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          {
+            "label": "Custom Software",
+            "href": "/services/custom-software-development"
+          },
+          {
+            "label": "Business Automation",
+            "href": "/services/business-automation"
+          },
+          {
+            "label": "ERP & CRM Systems",
+            "href": "/services/erp-crm-development"
+          },
+          {
+            "label": "AI Integration & RAG",
+            "href": "/services/ai-integration"
+          },
+          {
+            "label": "Mobile Apps (Flutter)",
+            "href": "/services/mobile-app-development"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "/about-us"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies"
+          },
+          {
+            "label": "Portfolio",
+            "href": "/portfolio"
+          },
+          {
+            "label": "Technologies",
+            "href": "/technologies"
+          },
+          {
+            "label": "Careers (We're Hiring)",
+            "href": "/careers"
+          },
+          {
+            "label": "Hire Developers",
+            "href": "/hire-developers"
+          }
+        ]
+      },
+      {
+        "title": "Resources & Legal",
+        "links": [
+          {
+            "label": "Technical Insights",
+            "href": "/blog"
+          },
+          {
+            "label": "Start a Project",
+            "href": "/get-a-quote"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms-conditions"
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "siteName": "SmartEdge Bangladesh",
+    "tagline": "Software Development & Enterprise Engineering",
+    "logoUrl": "/smartedge-logo.png",
+    "faviconUrl": "/favicon.ico",
+    "primaryColor": "#0047ff",
+    "fontFamily": "Poppins",
+    "seoTitle": "SmartEdge Bangladesh | Enterprise Software Development & AI Solutions",
+    "seoDescription": "Leading software development and business automation partner in Dhaka, Bangladesh. We build high-performing ERP systems, custom web apps, and dedicated developer teams.",
+    "adminEmail": "admin@smartedgebangladesh.com"
+  }
+}

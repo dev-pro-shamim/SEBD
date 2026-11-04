@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: 'Poppins', system-ui, -apple-system, sans-serif;
+  --brand-blue: #0047ff;
+  --brand-yellow: #ffe600;
+  --brand-navy: #020b2e;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  color: #0f172a;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-family: var(--font-poppins), 'Poppins', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, select, textarea, span, p, a {
+  font-family: var(--font-poppins), 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+/* Consistent Signature Yellow Icon Scheme (inspired by Vivasoft) */
+svg.lucide {
+  color: #f59e0b; /* Vibrant warm golden yellow for high contrast on light backgrounds */
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+/* In dark sections, navy backgrounds, and hero cards */
+.bg-navy-950 svg.lucide,
+.bg-slate-900 svg.lucide,
+.bg-slate-950 svg.lucide,
+.bg-primary-950 svg.lucide,
+.bg-primary-900 svg.lucide,
+.bg-primary-500 svg.lucide,
+.text-white svg.lucide {
+  color: #ffe600; /* Radiant electric yellow on dark backgrounds */
+}
+
+/* On yellow background buttons/badges, preserve dark contrast */
+.bg-brand-yellow svg.lucide,
+.bg-yellow-300 svg.lucide,
+.bg-yellow-400 svg.lucide,
+.bg-amber-300 svg.lucide,
+.bg-amber-400 svg.lucide,
+button.bg-brand-yellow svg.lucide,
+a.bg-brand-yellow svg.lucide {
+  color: #020718 !important;
+}
+
+/* Allow muted slate text overrides where needed */
+.text-slate-400 svg.lucide,
+.text-slate-500 svg.lucide {
+  color: inherit;
+}
+
+/* Custom modern glassmorphism */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+}
+
+.glass-nav-dark {
+  background: rgba(2, 11, 46, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(0, 71, 255, 0.2);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-dark {
+  background: rgba(2, 11, 46, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 71, 255, 0.25);
+}
+
+/* Subtle enterprise grid background pattern with SmartEdge electric blue tint */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 71, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 71, 255, 0.05) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, rgba(0, 71, 255, 0.09) 1px, transparent 1px);
+}
+
+/* Signature SmartEdge Text Gradients */
+.text-gradient {
+  background: linear-gradient(135deg, #0047ff 0%, #0038d1 50%, #00d2ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-dark {
+  background: linear-gradient(135deg, #020b2e 0%, #0047ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-yellow {
+  background: linear-gradient(135deg, #ffe600 0%, #facc15 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Signature SmartEdge Highlight Box as seen in official banner */
+.highlight-yellow {
+  background-color: #ffe600;
+  color: #01061f;
+  font-weight: 800;
+  display: inline-block;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+}
+
+/* Custom styled scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0047ff;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
