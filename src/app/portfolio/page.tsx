@@ -145,7 +145,7 @@ export default function PortfolioPage() {
                   {/* Background Image */}
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} - Software Engineering Portfolio by SmartEdge Bangladesh`}
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                     loading="lazy"
                   />

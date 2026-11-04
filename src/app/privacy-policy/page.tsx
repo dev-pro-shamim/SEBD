@@ -3,8 +3,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | SmartEdge Bangladesh",
-  description: "Official Privacy Policy and Data Protection standards of SmartEdge Bangladesh Ltd.",
+  title: "Privacy Policy | SmartEdge Bangladesh Ltd.",
+  description: "Official Privacy Policy, data governance, and information security standards of SmartEdge Bangladesh Ltd.",
+  alternates: {
+    canonical: "https://smartedgebangladesh.com/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

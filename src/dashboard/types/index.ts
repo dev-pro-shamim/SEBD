@@ -37,6 +37,20 @@ export interface CompanyCMS {
   globalMarkets: Array<{ country: string; code: string; role: string }>;
 }
 
+export interface SEOConfig {
+  title?: string;
+  description?: string;
+  focusKeyword?: string;
+  secondaryKeywords?: string[];
+  canonicalUrl?: string;
+  metaRobots?: "index, follow" | "noindex, follow" | "index, nofollow" | "noindex, nofollow";
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  imageAlt?: string;
+  schemaType?: "Article" | "Service" | "WebPage" | "Organization";
+}
+
 export interface ServiceCMS {
   id: string;
   slug: string;
@@ -54,6 +68,7 @@ export interface ServiceCMS {
   features?: Array<{ title: string; desc: string }>;
   faqs?: Array<{ q: string; a: string }>;
   order?: number;
+  seo?: SEOConfig;
 }
 
 export interface PortfolioCMS {
@@ -76,6 +91,7 @@ export interface PortfolioCMS {
   demoUrl?: string;
   liveUrl?: string;
   githubUrl?: string;
+  seo?: SEOConfig;
 }
 
 export interface CaseStudyCMS {
@@ -100,6 +116,7 @@ export interface CaseStudyCMS {
   screenshots: Array<{ title: string; caption: string; image: string }>;
   processSteps: Array<{ title: string; desc: string }>;
   testimonial?: { quote: string; author: string; role: string; company?: string };
+  seo?: SEOConfig;
 }
 
 export interface BlogPostCMS {
@@ -120,6 +137,7 @@ export interface BlogPostCMS {
   tags: string[];
   content: string[];
   keyTakeaways: string[];
+  seo?: SEOConfig;
 }
 
 export interface TestimonialCMS {
@@ -201,6 +219,12 @@ export interface WebsiteSettingsCMS {
   fontFamily?: string;
   seoTitle?: string;
   seoDescription?: string;
+  focusKeywords?: string;
+  defaultOgImage?: string;
+  defaultMetaRobots?: string;
+  googleSearchConsoleVerification?: string;
+  bingWebmasterVerification?: string;
+  googleTagManagerId?: string;
   analyticsId?: string;
   googleAnalyticsId?: string;
   pixelId?: string;

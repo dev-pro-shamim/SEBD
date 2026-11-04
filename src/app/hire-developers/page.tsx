@@ -22,9 +22,26 @@ import { companyInfo } from "@/data/company";
 export const metadata: Metadata = {
   title: "Hire Dedicated Software Developers & Teams | SmartEdge Bangladesh",
   description:
-    "Hire vetted senior Full-Stack, Next.js, React, Node.js, Laravel, Flutter developers and dedicated engineering squads. Full-time, part-time, or project-based with a 2-week risk-free trial.",
+    "Hire vetted senior Full-Stack, Next.js, React, Node.js, Laravel, Flutter developers and dedicated engineering squads from Bangladesh for USA, UK, Canada, Australia, and European enterprises. Flexible engagement with a 2-week risk-free trial.",
+  keywords: [
+    "Hire Dedicated Developers",
+    "Hire Software Engineers Bangladesh",
+    "Hire Next.js Developers",
+    "Hire React Developers",
+    "Dedicated Engineering Teams",
+    "Outsource Software Development Bangladesh",
+    "SmartEdge Bangladesh",
+  ],
   alternates: {
     canonical: "https://smartedgebangladesh.com/hire-developers",
+  },
+  openGraph: {
+    title: "Hire Dedicated Software Developers | SmartEdge Bangladesh",
+    description:
+      "Scale your engineering squad with elite full-stack, mobile, and cloud developers from Dhaka, Bangladesh.",
+    url: "https://smartedgebangladesh.com/hire-developers",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 

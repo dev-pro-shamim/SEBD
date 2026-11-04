@@ -3,8 +3,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | SmartEdge Bangladesh",
-  description: "Terms of Service and Software Delivery Agreements of SmartEdge Bangladesh Ltd.",
+  title: "Terms & Conditions | SmartEdge Bangladesh Ltd.",
+  description: "Terms of Service, Master Services Agreement, and Software Delivery Standards of SmartEdge Bangladesh Ltd.",
+  alternates: {
+    canonical: "https://smartedgebangladesh.com/terms-conditions",
+  },
 };
 
 export default function TermsConditionsPage() {

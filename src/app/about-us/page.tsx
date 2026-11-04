@@ -16,9 +16,28 @@ import { companyInfo } from "@/data/company";
 import { cmsStore } from "@/lib/cms-store";
 
 export const metadata: Metadata = {
-  title: "About Us | SmartEdge Bangladesh",
+  title: "About Us | SmartEdge Bangladesh | Software Company in Dhaka",
   description:
-    "Learn about SmartEdge Bangladesh: our mission, leadership team, engineering values, and global product delivery model.",
+    "Learn about SmartEdge Bangladesh: our founding in 2018, leadership team, engineering values, and global product delivery model for clients in Bangladesh, USA, UK, Canada, Australia, and Europe.",
+  keywords: [
+    "About SmartEdge Bangladesh",
+    "Software Company in Dhaka",
+    "IT Company in Bangladesh",
+    "Software Engineering Leadership",
+    "SmartEdge Founders",
+    "Software Development Company in Bangladesh",
+  ],
+  alternates: {
+    canonical: "https://smartedgebangladesh.com/about-us",
+  },
+  openGraph: {
+    title: "About SmartEdge Bangladesh | Software Company in Dhaka",
+    description:
+      "Our mission, technical leadership team, and global track record in custom software engineering.",
+    url: "https://smartedgebangladesh.com/about-us",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
+  },
 };
 
 export default function AboutPage() {
@@ -154,7 +173,8 @@ export default function AboutPage() {
                 {leader.avatarUrl ? (
                   <img
                     src={leader.avatarUrl}
-                    alt={leader.name}
+                    alt={`${leader.name} - ${leader.role} at SmartEdge Bangladesh`}
+                    loading="lazy"
                     className="w-16 h-16 rounded-2xl object-cover mb-6 shadow-md border border-slate-200"
                   />
                 ) : (

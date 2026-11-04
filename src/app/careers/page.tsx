@@ -18,11 +18,26 @@ import {
 import { openPositions, companyPerks } from "@/data/careers";
 
 export const metadata: Metadata = {
-  title: "Careers & Engineering Culture | SmartEdge Bangladesh",
+  title: "Careers & Engineering Culture | SmartEdge Bangladesh | Software Jobs Dhaka",
   description:
-    "Join SmartEdge Bangladesh's high-caliber engineering squad in Mirpur-10, Dhaka. Explore open positions for Next.js, Node.js, Laravel, Flutter, and QA automation engineers.",
+    "Join SmartEdge Bangladesh's high-caliber engineering squad in Mirpur-10, Dhaka. Explore open positions for Next.js, React, Node.js, Laravel, Flutter, and QA automation engineers.",
+  keywords: [
+    "Software Engineer Jobs Dhaka",
+    "IT Jobs in Bangladesh",
+    "Next.js Developer Jobs",
+    "Flutter Developer Vacancy",
+    "SmartEdge Careers",
+  ],
   alternates: {
     canonical: "https://smartedgebangladesh.com/careers",
+  },
+  openGraph: {
+    title: "Careers at SmartEdge Bangladesh | Software Engineering Jobs Dhaka",
+    description:
+      "Work on high-impact enterprise systems with modern tech stacks, competitive compensation, and engineering autonomy.",
+    url: "https://smartedgebangladesh.com/careers",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 

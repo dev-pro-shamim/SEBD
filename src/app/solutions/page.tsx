@@ -20,9 +20,25 @@ import { solutionsData } from "@/data/solutions";
 export const metadata: Metadata = {
   title: "Enterprise Software Solutions & Digital Transformation | SmartEdge Bangladesh",
   description:
-    "Explore SmartEdge Bangladesh's enterprise solutions: Digital Transformation, Enterprise Systems, Business Automation, AI Solutions, SaaS Architecture, and ERP/CRM platforms.",
+    "Explore SmartEdge Bangladesh's enterprise solutions: Digital Transformation, Enterprise Systems, Business Automation, AI Solutions, SaaS Architecture, and ERP/CRM platforms for businesses in Bangladesh and globally.",
+  keywords: [
+    "Enterprise Software Solutions",
+    "Digital Transformation Bangladesh",
+    "Business Automation Solutions",
+    "SaaS Architecture",
+    "Custom IT Solutions Dhaka",
+    "SmartEdge Solutions",
+  ],
   alternates: {
     canonical: "https://smartedgebangladesh.com/solutions",
+  },
+  openGraph: {
+    title: "Enterprise Solutions & Digital Transformation | SmartEdge Bangladesh",
+    description:
+      "Modernize legacy architecture and scale core business processes with bespoke digital solutions.",
+    url: "https://smartedgebangladesh.com/solutions",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 

@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { productsData } from "@/data/products";
 import { companyInfo } from "@/data/company";
+import { BreadcrumbSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -34,16 +35,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: "Product Not Found" };
   }
 
+  const title = `${prod.name} | Enterprise Software Platform | SmartEdge Bangladesh`;
+  const description = `${prod.description} Scalable digital platform developed by SmartEdge Bangladesh.`;
+
   return {
-    title: `${prod.name} | SmartEdge Bangladesh Software Products`,
-    description: prod.description,
+    title,
+    description,
+    keywords: [
+      prod.name,
+      prod.category,
+      "Software Product Bangladesh",
+      "Enterprise Platform",
+      "SmartEdge Bangladesh",
+    ],
     alternates: {
       canonical: `https://smartedgebangladesh.com/products/${prod.slug}`,
     },
     openGraph: {
-      title: `${prod.name} | SmartEdge Bangladesh`,
-      description: prod.description,
+      title,
+      description,
       url: `https://smartedgebangladesh.com/products/${prod.slug}`,
+      siteName: "SmartEdge Bangladesh",
+      type: "website",
+      images: ["/android-chrome-512x512.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/android-chrome-512x512.png"],
     },
   };
 }
@@ -57,6 +77,15 @@ export default function ProductDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white">
+      {/* Structured Data: Breadcrumb */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Products", url: "/products" },
+          { name: prod.name, url: `/products/${prod.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb Bar */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">

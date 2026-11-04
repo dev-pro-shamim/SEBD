@@ -24,8 +24,24 @@ export const metadata: Metadata = {
   title: "Software Products & Platforms | SmartEdge Bangladesh",
   description:
     "Explore SmartEdge Bangladesh's digital software products: Enterprise Hub, SmartStock Pro, EdgeCRM, OmniERP Core, CloudSync Engine, ApexCommerce, and DocuIntelligence AI.",
+  keywords: [
+    "Software Products Bangladesh",
+    "ERP Software Bangladesh",
+    "Inventory Management Software",
+    "CRM Software Bangladesh",
+    "E-commerce Platform",
+    "SmartEdge Products",
+  ],
   alternates: {
     canonical: "https://smartedgebangladesh.com/products",
+  },
+  openGraph: {
+    title: "Enterprise Software Products & SaaS Platforms | SmartEdge Bangladesh",
+    description:
+      "Proven business applications, inventory engines, and AI software built for scale.",
+    url: "https://smartedgebangladesh.com/products",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 

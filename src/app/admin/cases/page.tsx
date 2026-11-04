@@ -7,6 +7,7 @@ import { fetchCMS, saveCMS, deleteCMS } from "@/dashboard/services/cms";
 import DataTable, { Column } from "@/dashboard/components/DataTable";
 import Modal from "@/dashboard/components/Modal";
 import ConfirmModal from "@/dashboard/components/ConfirmModal";
+import SEOFieldsCard from "@/dashboard/components/SEOFieldsCard";
 import ImageUploader from "@/dashboard/components/ImageUploader";
 import Link from "next/link";
 
@@ -395,6 +396,16 @@ export default function CasesCMSPage() {
               ))}
             </div>
           </div>
+
+          {/* Case Study SEO Management */}
+          <SEOFieldsCard
+            seo={formData.seo}
+            onChange={(seo) => setFormData({ ...formData, seo })}
+            defaultTitle={formData.title}
+            defaultDescription={formData.overview}
+            defaultSlug={`case-studies/${formData.slug || "new-case"}`}
+            sectionTitle="Case Study SEO & SERP Management"
+          />
 
           <div className="pt-4 border-t border-slate-800 flex items-center justify-end gap-3">
             <button

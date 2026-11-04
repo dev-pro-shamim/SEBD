@@ -23,8 +23,24 @@ export const metadata: Metadata = {
   title: "Industries We Serve | Enterprise Software Engineering | SmartEdge Bangladesh",
   description:
     "SmartEdge Bangladesh delivers mission-critical software engineering across 11 key industries: Healthcare, Finance, Education, E-Commerce, Retail, Real Estate, Logistics, Manufacturing, Travel, SaaS, and Startups.",
+  keywords: [
+    "Healthcare Software Development",
+    "Fintech Development Bangladesh",
+    "Logistics Software Bangladesh",
+    "Manufacturing ERP",
+    "E-commerce Development",
+    "Industry Software Solutions",
+  ],
   alternates: {
     canonical: "https://smartedgebangladesh.com/industries",
+  },
+  openGraph: {
+    title: "Industry Software Solutions | SmartEdge Bangladesh",
+    description:
+      "Domain-specific software engineering, compliance, and systems integration across 11 global industries.",
+    url: "https://smartedgebangladesh.com/industries",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 

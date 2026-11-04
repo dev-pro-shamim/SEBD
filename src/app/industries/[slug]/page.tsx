@@ -13,6 +13,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { industriesData } from "@/data/industries";
+import { BreadcrumbSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -30,16 +31,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: "Industry Not Found" };
   }
 
+  const title = `${ind.name} Software Development Solutions | SmartEdge Bangladesh`;
+  const description = `${ind.shortDesc} Tailored software engineering for ${ind.name} enterprises.`;
+
   return {
-    title: `${ind.name} Software Development Solutions | SmartEdge Bangladesh`,
-    description: ind.shortDesc,
+    title,
+    description,
+    keywords: [
+      `${ind.name} Software Development`,
+      `${ind.name} IT Solutions`,
+      "Software Company Bangladesh",
+      "SmartEdge Bangladesh",
+    ],
     alternates: {
       canonical: `https://smartedgebangladesh.com/industries/${ind.slug}`,
     },
     openGraph: {
-      title: `${ind.name} Software Solutions | SmartEdge Bangladesh`,
-      description: ind.shortDesc,
+      title,
+      description,
       url: `https://smartedgebangladesh.com/industries/${ind.slug}`,
+      siteName: "SmartEdge Bangladesh",
+      type: "website",
+      images: ["/android-chrome-512x512.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/android-chrome-512x512.png"],
     },
   };
 }
@@ -53,6 +72,15 @@ export default function IndustryDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white">
+      {/* Structured Data: Breadcrumbs */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Industries", url: "/industries" },
+          { name: ind.name, url: `/industries/${ind.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb Bar */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">

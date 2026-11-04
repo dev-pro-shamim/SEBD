@@ -7,6 +7,7 @@ import { fetchCMS, saveCMS, deleteCMS } from "@/dashboard/services/cms";
 import DataTable, { Column } from "@/dashboard/components/DataTable";
 import Modal from "@/dashboard/components/Modal";
 import ConfirmModal from "@/dashboard/components/ConfirmModal";
+import SEOFieldsCard from "@/dashboard/components/SEOFieldsCard";
 import Link from "next/link";
 
 export default function BlogsCMSPage() {
@@ -359,6 +360,16 @@ export default function BlogsCMSPage() {
               className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs leading-relaxed font-mono"
             />
           </div>
+
+          {/* SEO & Social Metadata Management */}
+          <SEOFieldsCard
+            seo={formData.seo}
+            onChange={(seo) => setFormData({ ...formData, seo })}
+            defaultTitle={formData.title}
+            defaultDescription={formData.excerpt}
+            defaultSlug={`blog/${formData.slug || "new-article"}`}
+            sectionTitle="Article SEO & Search Ranking Management"
+          />
 
           <div className="pt-4 border-t border-slate-800 flex items-center justify-end gap-3">
             <button

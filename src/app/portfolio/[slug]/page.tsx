@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { portfolioProjectsData, PortfolioProject } from "@/data/portfolio";
 import { cmsStore } from "@/lib/cms-store";
+import { BreadcrumbSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -34,16 +35,44 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const seo = (project as any).seo;
+  const title = seo?.title || `${project.title} | Software Engineering Project | SmartEdge Bangladesh`;
+  const description = seo?.description || `${project.shortDescription} Engineered by SmartEdge Bangladesh.`;
+  const canonical = seo?.canonicalUrl || `https://smartedgebangladesh.com/portfolio/${project.slug}`;
+  const ogTitle = seo?.ogTitle || title;
+  const ogDescription = seo?.ogDescription || description;
+  const ogImage = seo?.ogImage || project.image || "/android-chrome-512x512.png";
+
   return {
-    title: `${project.title} | Portfolio | SmartEdge Bangladesh`,
-    description: project.shortDescription,
+    title,
+    description,
+    keywords: [
+      project.title,
+      project.category,
+      project.industry,
+      ...(seo?.focusKeyword ? [seo.focusKeyword] : []),
+      ...(seo?.secondaryKeywords || []),
+      ...(project.technologies || []),
+      "Software Development Portfolio",
+      "SmartEdge Bangladesh",
+    ],
+    robots: seo?.metaRobots ? { index: !seo.metaRobots.includes("noindex"), follow: !seo.metaRobots.includes("nofollow") } : undefined,
     alternates: {
-      canonical: `https://smartedgebangladesh.com/portfolio/${project.slug}`,
+      canonical,
     },
     openGraph: {
-      title: `${project.title} | Portfolio`,
-      description: project.shortDescription,
-      url: `https://smartedgebangladesh.com/portfolio/${project.slug}`,
+      title: ogTitle,
+      description: ogDescription,
+      url: canonical,
+      siteName: "SmartEdge Bangladesh",
+      type: "article",
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description: ogDescription,
+      images: [ogImage],
     },
   };
 }
@@ -80,6 +109,15 @@ export default function PortfolioDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
+      {/* Structured Data: Breadcrumb */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Portfolio", url: "/portfolio" },
+          { name: project.title, url: `/portfolio/${project.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">
@@ -146,8 +184,9 @@ export default function PortfolioDetailPage({ params }: PageProps) {
               <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100">
                 <img
                   src={project.image}
-                  alt={`${project.title} - Main Interface`}
+                  alt={`${project.title} - Main Production Interface by SmartEdge Bangladesh`}
                   className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -209,7 +248,7 @@ export default function PortfolioDetailPage({ params }: PageProps) {
                     <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
                       <img
                         src={item.image}
-                        alt={item.title}
+                        alt={`${item.title} - ${project.title} Interface Showcase`}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />

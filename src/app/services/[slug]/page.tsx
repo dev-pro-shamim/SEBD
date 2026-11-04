@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { servicesData, ServiceDetail } from "@/data/services";
 import { cmsStore } from "@/lib/cms-store";
+import { BreadcrumbSchema, ServiceSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -35,16 +36,44 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const title = (service as any).seo?.title || `${service.title} | Software Services | SmartEdge Bangladesh`;
+  const description = (service as any).seo?.description || `${service.shortDescription} Engineered by SmartEdge Bangladesh for enterprises in Dhaka, Bangladesh and international markets.`;
+  const canonical = (service as any).seo?.canonicalUrl || `https://smartedgebangladesh.com/services/${service.slug}`;
+  const ogTitle = (service as any).seo?.ogTitle || title;
+  const ogDescription = (service as any).seo?.ogDescription || description;
+  const ogImage = (service as any).seo?.ogImage || "/android-chrome-512x512.png";
+  const seoConfig = (service as any).seo;
+
   return {
-    title: `${service.title} | SmartEdge Bangladesh`,
-    description: service.shortDescription,
+    title,
+    description,
+    keywords: [
+      service.title,
+      `${service.title} in Bangladesh`,
+      `${service.title} Company Dhaka`,
+      "Software Development Company",
+      ...(seoConfig?.focusKeyword ? [seoConfig.focusKeyword] : []),
+      ...(seoConfig?.secondaryKeywords || []),
+      ...(service.technologies || []),
+      "SmartEdge Bangladesh",
+    ],
+    robots: seoConfig?.metaRobots ? { index: !seoConfig.metaRobots.includes("noindex"), follow: !seoConfig.metaRobots.includes("nofollow") } : undefined,
     alternates: {
-      canonical: `https://smartedgebangladesh.com/services/${service.slug}`,
+      canonical,
     },
     openGraph: {
-      title: `${service.title} | SmartEdge Bangladesh`,
-      description: service.shortDescription,
-      url: `https://smartedgebangladesh.com/services/${service.slug}`,
+      title: ogTitle,
+      description: ogDescription,
+      url: canonical,
+      siteName: "SmartEdge Bangladesh",
+      type: "website",
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description: ogDescription,
+      images: [ogImage],
     },
   };
 }
@@ -81,6 +110,21 @@ export default function ServiceDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white">
+      {/* Structured Data: Service & Breadcrumbs */}
+      <ServiceSchema
+        name={service.title}
+        description={service.shortDescription}
+        url={`/services/${service.slug}`}
+        category={service.category}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Services", url: "/services" },
+          { name: service.title, url: `/services/${service.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb Bar */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">

@@ -68,8 +68,9 @@ export default function TeamSection() {
                   {member.avatarUrl ? (
                     <img
                       src={member.avatarUrl}
-                      alt={member.name}
+                      alt={`${member.name} - ${member.role} at SmartEdge Bangladesh`}
                       className="w-14 h-14 rounded-2xl object-cover shadow-md border border-slate-200"
+                      loading="lazy"
                     />
                   ) : (
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 flex items-center justify-center text-white font-extrabold text-xl shadow-md border border-primary-500/20">

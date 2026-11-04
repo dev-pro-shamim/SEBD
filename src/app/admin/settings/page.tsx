@@ -296,26 +296,103 @@ export default function AdminSettingsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="block text-xs font-semibold text-slate-300 mb-1.5">
-                Google Analytics Measurement ID
+                Primary Focus Keywords
               </label>
               <input
                 type="text"
-                value={settings.googleAnalyticsId || ""}
-                onChange={(e) => setSettings({ ...settings, googleAnalyticsId: e.target.value })}
-                placeholder="G-XXXXXXXXXX"
-                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                value={settings.focusKeywords || ""}
+                onChange={(e) => setSettings({ ...settings, focusKeywords: e.target.value })}
+                placeholder="Software Company in Bangladesh, Custom Software Development Dhaka"
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500"
               />
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-300 mb-1.5">Meta / Facebook Pixel ID</label>
+              <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                Default Open Graph Social Image URL
+              </label>
               <input
                 type="text"
-                value={settings.metaPixelId || ""}
-                onChange={(e) => setSettings({ ...settings, metaPixelId: e.target.value })}
-                placeholder="123456789012345"
-                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                value={settings.defaultOgImage || ""}
+                onChange={(e) => setSettings({ ...settings, defaultOgImage: e.target.value })}
+                placeholder="https://smartedgebangladesh.com/android-chrome-512x512.png"
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono text-[11px]"
               />
+            </div>
+          </div>
+
+          <div className="pt-3 border-t border-slate-800/80">
+            <h3 className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-3">
+              Search Console & Analytics Integration
+            </h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Google Search Console Verification (HTML tag token)
+                </label>
+                <input
+                  type="text"
+                  value={settings.googleSearchConsoleVerification || ""}
+                  onChange={(e) => setSettings({ ...settings, googleSearchConsoleVerification: e.target.value })}
+                  placeholder="google-site-verification token..."
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Bing Webmaster Tools Verification Token
+                </label>
+                <input
+                  type="text"
+                  value={settings.bingWebmasterVerification || ""}
+                  onChange={(e) => setSettings({ ...settings, bingWebmasterVerification: e.target.value })}
+                  placeholder="msvalidate.01 token..."
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Google Analytics 4 Measurement ID
+                </label>
+                <input
+                  type="text"
+                  value={settings.googleAnalyticsId || ""}
+                  onChange={(e) => setSettings({ ...settings, googleAnalyticsId: e.target.value })}
+                  placeholder="G-XXXXXXXXXX"
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Google Tag Manager Container ID
+                </label>
+                <input
+                  type="text"
+                  value={settings.googleTagManagerId || ""}
+                  onChange={(e) => setSettings({ ...settings, googleTagManagerId: e.target.value })}
+                  placeholder="GTM-XXXXXXX"
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Meta / Facebook Pixel ID
+                </label>
+                <input
+                  type="text"
+                  value={settings.metaPixelId || ""}
+                  onChange={(e) => setSettings({ ...settings, metaPixelId: e.target.value })}
+                  placeholder="123456789012345"
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-xs focus:outline-none focus:border-primary-500 font-mono"
+                />
+              </div>
             </div>
           </div>
 

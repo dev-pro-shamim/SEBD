@@ -24,9 +24,30 @@ import { servicesData } from "@/data/services";
 import { cmsStore } from "@/lib/cms-store";
 
 export const metadata: Metadata = {
-  title: "Enterprise Software Services & Engineering Capabilities",
+  title: "Enterprise Software Services & Engineering Capabilities | SmartEdge Bangladesh",
   description:
-    "Explore SmartEdge Bangladesh's 12 core engineering services: Custom Software, ERP & CRM, Cloud Web Apps, Mobile Development, E-commerce Marketplaces, Dedicated Teams, and AI Automation.",
+    "Explore SmartEdge Bangladesh's core software engineering services: Custom Software Development, ERP & CRM Systems, Next.js Web Apps, Mobile Development, E-commerce, Dedicated Teams, and AI Automation in Bangladesh and globally.",
+  keywords: [
+    "Software Development Services",
+    "Custom Software Development Bangladesh",
+    "Web Development Services Dhaka",
+    "Mobile App Development",
+    "ERP Software Development",
+    "Next.js Development Services",
+    "React Development Company",
+    "SmartEdge Bangladesh Services",
+  ],
+  alternates: {
+    canonical: "https://smartedgebangladesh.com/services",
+  },
+  openGraph: {
+    title: "Enterprise Software Development Services | SmartEdge Bangladesh",
+    description:
+      "Full-lifecycle software engineering: Custom Apps, ERP, Next.js, Flutter, and AI automation for global companies.",
+    url: "https://smartedgebangladesh.com/services",
+    type: "website",
+    images: ["/android-chrome-512x512.png"],
+  },
 };
 
 export default function ServicesPage() {

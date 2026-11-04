@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { caseStudiesData, CaseStudy } from "@/data/cases";
 import { cmsStore } from "@/lib/cms-store";
+import { BreadcrumbSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -35,18 +36,44 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const description = caseItem.summary || caseItem.overview;
+  const seo = (caseItem as any).seo;
+  const description = seo?.description || caseItem.summary || caseItem.overview;
+  const title = seo?.title || `${caseItem.title} | Enterprise Case Study | SmartEdge Bangladesh`;
+  const canonical = seo?.canonicalUrl || `https://smartedgebangladesh.com/case-studies/${caseItem.slug}`;
+  const ogTitle = seo?.ogTitle || title;
+  const ogDescription = seo?.ogDescription || description;
+  const ogImage = seo?.ogImage || caseItem.heroImage || "/android-chrome-512x512.png";
 
   return {
-    title: `${caseItem.title} | Case Study | SmartEdge Bangladesh`,
+    title,
     description,
+    keywords: [
+      caseItem.title,
+      caseItem.industry,
+      ...(seo?.focusKeyword ? [seo.focusKeyword] : []),
+      ...(seo?.secondaryKeywords || []),
+      ...(caseItem.technologies || []),
+      "Enterprise Case Study",
+      "Software Engineering Case Study",
+      "SmartEdge Bangladesh",
+    ],
+    robots: seo?.metaRobots ? { index: !seo.metaRobots.includes("noindex"), follow: !seo.metaRobots.includes("nofollow") } : undefined,
     alternates: {
-      canonical: `https://smartedgebangladesh.com/cases/${caseItem.slug}`,
+      canonical,
     },
     openGraph: {
-      title: `${caseItem.title} | Case Study`,
-      description,
-      url: `https://smartedgebangladesh.com/cases/${caseItem.slug}`,
+      title: ogTitle,
+      description: ogDescription,
+      url: canonical,
+      siteName: "SmartEdge Bangladesh",
+      type: "article",
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description: ogDescription,
+      images: [ogImage],
     },
   };
 }
@@ -76,12 +103,21 @@ export default function CaseStudyDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white">
+      {/* Structured Data: Breadcrumb */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Case Studies", url: "/case-studies" },
+          { name: caseItem.title, url: `/case-studies/${caseItem.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">
           <Link href="/" className="hover:text-primary-600">Home</Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-          <Link href="/cases" className="hover:text-primary-600">Case Studies</Link>
+          <Link href="/case-studies" className="hover:text-primary-600">Case Studies</Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
           <span className="font-semibold text-slate-900 truncate max-w-xs">{caseItem.title}</span>
         </div>
@@ -153,8 +189,9 @@ export default function CaseStudyDetailPage({ params }: PageProps) {
               <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100">
                 <img
                   src={caseItem.heroImage}
-                  alt={`${caseItem.title} - Production Solution`}
+                  alt={`${caseItem.title} - Enterprise Architecture Showcase by SmartEdge Bangladesh`}
                   className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -234,7 +271,7 @@ export default function CaseStudyDetailPage({ params }: PageProps) {
                   <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100">
                     <img
                       src={s.image || caseItem.heroImage}
-                      alt={s.title}
+                      alt={`${s.title} - ${caseItem.title} Architecture Interface`}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />

@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { blogPostsData, BlogPost } from "@/data/blogs";
 import { cmsStore } from "@/lib/cms-store";
+import { BreadcrumbSchema, ArticleSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -33,19 +34,45 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const seo = (post as any).seo;
+  const title = seo?.title || `${post.title} | SmartEdge Bangladesh Insights`;
+  const description = seo?.description || post.excerpt;
+  const canonical = seo?.canonicalUrl || `https://smartedgebangladesh.com/blog/${post.slug}`;
+  const ogTitle = seo?.ogTitle || title;
+  const ogDescription = seo?.ogDescription || description;
+  const ogImage = seo?.ogImage || "/android-chrome-512x512.png";
+
   return {
-    title: `${post.title} | SmartEdge Bangladesh Insights`,
-    description: post.excerpt,
+    title,
+    description,
+    keywords: [
+      post.category,
+      ...(seo?.focusKeyword ? [seo.focusKeyword] : []),
+      ...(seo?.secondaryKeywords || []),
+      ...(post.tags || []),
+      "Software Development Bangladesh",
+      "Enterprise Engineering",
+      "SmartEdge Bangladesh",
+    ],
+    robots: seo?.metaRobots ? { index: !seo.metaRobots.includes("noindex"), follow: !seo.metaRobots.includes("nofollow") } : undefined,
     alternates: {
-      canonical: `https://smartedgebangladesh.com/blog/${post.slug}`,
+      canonical,
     },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: ogTitle,
+      description: ogDescription,
       type: "article",
       publishedTime: post.date,
       authors: [post.author?.name || "SmartEdge Engineering"],
-      url: `https://smartedgebangladesh.com/blog/${post.slug}`,
+      url: canonical,
+      siteName: "SmartEdge Bangladesh",
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description: ogDescription,
+      images: [ogImage],
     },
   };
 }
@@ -64,6 +91,22 @@ export default function BlogPostDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
+      {/* Structured Data: Article & Breadcrumb */}
+      <ArticleSchema
+        headline={post.title}
+        description={post.excerpt}
+        url={`/blog/${post.slug}`}
+        datePublished={post.date}
+        authorName={post.author?.name}
+        keywords={post.tags}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/blog" },
+          { name: post.title, url: `/blog/${post.slug}` },
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">

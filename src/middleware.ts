@@ -38,37 +38,49 @@ export async function middleware(req: NextRequest) {
   if (pathname === "/admin/login" || pathname.startsWith("/admin/login")) {
     // If visitor is already authenticated, redirect to /admin dashboard
     if (session) {
-      return NextResponse.redirect(new URL("/admin", req.url));
+      const redirectRes = NextResponse.redirect(new URL("/admin", req.url));
+      redirectRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+      return redirectRes;
     }
     // If NOT authenticated, allow them to view the login form immediately
-    return NextResponse.next();
+    const loginRes = NextResponse.next();
+    loginRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+    return loginRes;
   }
 
   // 4. Handle all other /api/admin/* endpoints
   if (pathname.startsWith("/api/admin")) {
     if (!session) {
-      return NextResponse.json(
+      const unauthRes = NextResponse.json(
         { error: "Unauthorized. Admin session required." },
         { status: 401 }
       );
+      unauthRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+      return unauthRes;
     }
-    return NextResponse.next();
+    const apiRes = NextResponse.next();
+    apiRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+    return apiRes;
   }
 
   // 5. Handle /dashboard routes
   if (pathname === "/dashboard" || pathname.startsWith("/dashboard")) {
-    if (!session) {
-      return NextResponse.redirect(new URL("/admin/login", req.url));
-    }
-    return NextResponse.redirect(new URL("/admin", req.url));
+    const dest = session ? "/admin" : "/admin/login";
+    const dashRes = NextResponse.redirect(new URL(dest, req.url));
+    dashRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+    return dashRes;
   }
 
   // 6. Handle all /admin and /admin/* routes
   if (pathname === "/admin" || pathname.startsWith("/admin/")) {
     if (!session) {
-      return NextResponse.redirect(new URL("/admin/login", req.url));
+      const loginRedirect = NextResponse.redirect(new URL("/admin/login", req.url));
+      loginRedirect.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+      return loginRedirect;
     }
-    return NextResponse.next();
+    const adminRes = NextResponse.next();
+    adminRes.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet");
+    return adminRes;
   }
 
   return NextResponse.next();

@@ -59,7 +59,7 @@ export default function FeaturedCasesSection() {
                 {/* Background Image */}
                 <img
                   src={item.heroImage}
-                  alt={item.title}
+                  alt={`${item.title} - Enterprise Case Study by SmartEdge Bangladesh`}
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                   loading="lazy"
                 />

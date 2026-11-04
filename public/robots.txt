@@ -1,5 +1,31 @@
+# SmartEdge Bangladesh - Comprehensive Search Crawler Directive
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+
+# Explicit Bot Directives
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /dashboard/
 Disallow: /api/
 
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /dashboard/
+Disallow: /api/
+
+# Canonical Dynamic XML Sitemap
 Sitemap: https://smartedgebangladesh.com/sitemap.xml
+Host: https://smartedgebangladesh.com

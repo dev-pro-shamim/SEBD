@@ -103,7 +103,7 @@ export default function Logo({
         {useImageEmblem ? (
           <Image
             src="/images/smartedge-symbol.jpg"
-            alt="SmartEdge Symbol"
+            alt="SmartEdge Bangladesh - Enterprise Software & Product Engineering Company Dhaka"
             width={64}
             height={64}
             className="w-full h-full object-cover"

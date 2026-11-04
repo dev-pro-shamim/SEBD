@@ -16,6 +16,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 import { solutionsData } from "@/data/solutions";
+import { BreadcrumbSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: { slug: string };
@@ -33,16 +34,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: "Solution Not Found" };
   }
 
+  const title = `${sol.title} | Enterprise Software Solutions | SmartEdge Bangladesh`;
+  const description = `${sol.shortDescription} Enterprise architectural transformation by SmartEdge Bangladesh.`;
+
   return {
-    title: `${sol.title} | SmartEdge Bangladesh`,
-    description: sol.shortDescription,
+    title,
+    description,
+    keywords: [
+      sol.title,
+      "Enterprise Solution Bangladesh",
+      "Digital Transformation Dhaka",
+      "SmartEdge Bangladesh",
+    ],
     alternates: {
       canonical: `https://smartedgebangladesh.com/solutions/${sol.slug}`,
     },
     openGraph: {
-      title: `${sol.title} | SmartEdge Bangladesh`,
-      description: sol.shortDescription,
+      title,
+      description,
       url: `https://smartedgebangladesh.com/solutions/${sol.slug}`,
+      siteName: "SmartEdge Bangladesh",
+      type: "website",
+      images: ["/android-chrome-512x512.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/android-chrome-512x512.png"],
     },
   };
 }
@@ -56,6 +75,15 @@ export default function SolutionDetailPage({ params }: PageProps) {
 
   return (
     <div className="pt-28 pb-20 bg-white">
+      {/* Structured Data: Breadcrumb */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Solutions", url: "/solutions" },
+          { name: sol.title, url: `/solutions/${sol.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb Bar */}
       <div className="bg-slate-50 border-b border-slate-100 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 flex items-center gap-1.5">
