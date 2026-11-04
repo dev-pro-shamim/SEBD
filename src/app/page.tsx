@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/home/HeroSection";
 import StatsSection from "@/components/home/StatsSection";
+import ClientLogoSlider from "@/components/home/ClientLogoSlider";
 import EngagementModels from "@/components/home/EngagementModels";
 import FeaturedCasesSection from "@/components/home/FeaturedCasesSection";
 import ServicesSection from "@/components/home/ServicesSection";
@@ -23,7 +24,10 @@ export default function HomePage() {
       {/* Section 2: Company Expertise & Global Stats */}
       <StatsSection />
 
-      {/* Section 3: Engagement Models */}
+      {/* Section 3: Modern Client Logos Dual-Track Slider */}
+      <ClientLogoSlider />
+
+      {/* Section 4: Engagement Models */}
       <EngagementModels />
 
       {/* Section 4: Featured Case Studies */}

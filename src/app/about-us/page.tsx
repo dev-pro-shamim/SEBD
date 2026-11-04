@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { companyInfo } from "@/data/company";
 import { cmsStore } from "@/lib/cms-store";
+import ClientLogoSlider from "@/components/home/ClientLogoSlider";
 
 export const metadata: Metadata = {
   title: "About Us | SmartEdge Bangladesh | Software Company in Dhaka",
@@ -312,6 +313,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Trusted Client Logos Slider */}
+      <ClientLogoSlider />
 
       {/* Bottom CTA */}
       <section className="py-20 bg-gradient-to-b from-white via-primary-50/50 to-primary-100/40 text-slate-950 border-t border-slate-200/80 relative overflow-hidden">

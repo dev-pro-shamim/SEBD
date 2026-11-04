@@ -63,23 +63,6 @@ export default function StatsSection() {
             </div>
           ))}
         </div>
-
-        {/* Trusted Partners Ticker / Grid */}
-        <div className="pt-10 border-t border-slate-200/80 text-center">
-          <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-8">
-            TRUSTED BY BUSINESSES ACROSS GLOBAL MARKETS
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 items-center">
-            {trustedLogos.map((clientName, idx) => (
-              <div
-                key={idx}
-                className="py-3 px-4 rounded-xl bg-white/80 border border-slate-200 text-xs font-semibold text-slate-700 hover:text-primary-600 hover:border-primary-300 transition-colors shadow-xs"
-              >
-                {clientName}
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
