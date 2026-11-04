@@ -202,16 +202,30 @@ export default function ContactPage() {
             </div>
 
             {/* Google Maps Container */}
-            <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-56 bg-slate-100 relative">
+            <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md h-72 bg-slate-100 relative group">
               <iframe
-                title="SmartEdge Bangladesh Location Map"
-                src="https://maps.google.com/maps?q=1294%20Rokeya%20Sharani%2C%20Mirpur-10%2C%20Dhaka%201216%2C%20Bangladesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title="SmartEdge Bangladesh Location Map - 1294 Rokeya Sharani, Mirpur-10, Metro Pillar 267"
+                src="https://maps.google.com/maps?q=23.7998031,90.3715711&hl=en&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 loading="lazy"
-                aria-label="Google Map showing 1294 Rokeya Sharani, Mirpur-10, Dhaka, Bangladesh"
+                aria-label="Google Map showing SmartEdge Bangladesh at 1294 Rokeya Sharani, Mirpur-10, Dhaka-1216, Next to Metro Pillar No. 267"
               />
+              <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2 px-3 py-2 rounded-xl bg-white/95 backdrop-blur-sm border border-slate-200/80 shadow-md">
+                <span className="text-xs font-semibold text-slate-800 truncate flex items-center gap-1.5">
+                  <MapPin className="w-3.5 h-3.5 text-primary-600 flex-shrink-0" />
+                  1294 Begum Rokeya Sarani, Metro Pillar No. 267
+                </span>
+                <a
+                  href="https://maps.google.com/?q=23.7998031,90.3715711"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] font-bold text-primary-600 hover:text-primary-700 whitespace-nowrap"
+                >
+                  View Large Map &rarr;
+                </a>
+              </div>
             </div>
           </div>
 

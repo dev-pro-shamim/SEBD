@@ -383,7 +383,15 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-brand-yellow flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">{footerCms?.officeAddress || companyInfo.address.formatted}</span>
+                <a
+                  href={companyInfo.address.mapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="leading-relaxed hover:text-primary-600 transition-colors"
+                  title="Open SmartEdge Bangladesh location on Google Maps"
+                >
+                  {footerCms?.officeAddress || companyInfo.address.formatted}
+                </a>
               </div>
             </div>
 

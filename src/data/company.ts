@@ -22,7 +22,12 @@ export const companyInfo = {
     postalCode: "1216",
     country: "Bangladesh",
     formatted: "1294 Rokeya Sharani, Mirpur-10, Dhaka-1216, Next to Metro Pillar No. 267, Dhaka, Bangladesh 1216.",
-    mapQuery: "1294 Rokeya Sharani, Mirpur-10, Dhaka 1216, Bangladesh",
+    mapQuery: "23.7998031,90.3715711",
+    mapUrl: "https://maps.google.com/?q=23.7998031,90.3715711",
+    coordinates: {
+      latitude: 23.7998031,
+      longitude: 90.3715711,
+    },
   },
   establishedYear: 2018,
   stats: [

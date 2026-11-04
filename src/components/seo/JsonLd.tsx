@@ -25,9 +25,10 @@ export function OrganizationSchema() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "23.8071",
-      longitude: "90.3686",
+      latitude: "23.7998031",
+      longitude: "90.3715711",
     },
+    hasMap: "https://maps.google.com/?q=23.7998031,90.3715711",
     sameAs: [
       "https://www.facebook.com/SmartEdgeTechnologiesltd/",
       "https://wa.me/8801743589784",
@@ -91,9 +92,10 @@ export function LocalBusinessSchema() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "23.8071",
-      longitude: "90.3686",
+      latitude: "23.7998031",
+      longitude: "90.3715711",
     },
+    hasMap: "https://maps.google.com/?q=23.7998031,90.3715711",
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
