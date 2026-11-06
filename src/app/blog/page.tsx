@@ -22,22 +22,34 @@ export default function BlogListingPage() {
   }, []);
 
   const filteredPosts = useMemo(() => {
-    return posts.filter((post) => {
-      const matchesCategory =
-        selectedCategory === "All" || post.category === selectedCategory;
+    return posts
+      .filter((post) => {
+        const matchesCategory =
+          selectedCategory === "All" || post.category === selectedCategory;
 
-      const q = searchQuery.toLowerCase().trim();
-      const matchesSearch =
-        !q ||
-        post.title.toLowerCase().includes(q) ||
-        post.excerpt.toLowerCase().includes(q) ||
-        post.tags.some((t: string) => t.toLowerCase().includes(q));
+        const q = searchQuery.toLowerCase().trim();
+        const matchesSearch =
+          !q ||
+          post.title.toLowerCase().includes(q) ||
+          post.excerpt.toLowerCase().includes(q) ||
+          post.tags?.some((t: string) => t.toLowerCase().includes(q));
 
-      return matchesCategory && matchesSearch;
-    });
+        return matchesCategory && matchesSearch;
+      })
+      .sort((a, b) => {
+        const timeA = new Date(a.date).getTime() || 0;
+        const timeB = new Date(b.date).getTime() || 0;
+        return timeB - timeA;
+      });
   }, [posts, selectedCategory, searchQuery]);
 
-  const featuredPost = posts.find((p) => p.featured) || posts[0];
+  const featuredPost =
+    posts
+      .filter((p) => p.featured)
+      .sort(
+        (a, b) =>
+          (new Date(b.date).getTime() || 0) - (new Date(a.date).getTime() || 0)
+      )[0] || posts[0];
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">

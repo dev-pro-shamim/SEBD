@@ -555,7 +555,32 @@ class CMSStore {
 
   // BLOGS
   getBlogs(): BlogPostCMS[] {
-    return this.data.blogs;
+    const staticMap = new Map<string, BlogPostCMS>(
+      blogPostsData.map((b) => [
+        b.slug,
+        {
+          id: (b as any).id || b.slug,
+          slug: b.slug,
+          title: b.title,
+          excerpt: b.excerpt,
+          category: b.category,
+          date: b.date,
+          readTime: b.readTime,
+          author: b.author,
+          featured: b.featured,
+          status: "published" as const,
+          tags: b.tags,
+          content: b.content,
+          keyTakeaways: b.keyTakeaways,
+          image: (b as any).image || "/images/smartedge-symbol.jpg",
+          seo: (b as any).seo,
+        } as BlogPostCMS,
+      ])
+    );
+    for (const b of this.data.blogs || []) {
+      staticMap.set(b.slug, { ...staticMap.get(b.slug), ...b });
+    }
+    return Array.from(staticMap.values());
   }
   getBlogBySlug(slug: string): BlogPostCMS | undefined {
     return this.data.blogs.find((b) => b.slug === slug || b.id === slug);
