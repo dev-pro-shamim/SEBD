@@ -1,0 +1,113 @@
+
+    <svg width="2400" height="700" viewBox="0 0 2400 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Gradients -->
+        <linearGradient id="blueTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#0047FF" />
+          <stop offset="100%" stop-color="#002FA8" />
+        </linearGradient>
+      </defs>
+
+      <!-- Emblem at Left (Scaled to 500x500 within 700h) -->
+      <g transform="translate(100, 100) scale(0.9765)">
+        
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0055FF" />
+      <stop offset="45%" stop-color="#0035D0" />
+      <stop offset="85%" stop-color="#00208A" />
+      <stop offset="100%" stop-color="#020826" />
+    </linearGradient>
+
+    <!-- Golden Yellow Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF566" />
+      <stop offset="50%" stop-color="#FFE600" />
+      <stop offset="100%" stop-color="#E5BE00" />
+    </linearGradient>
+
+    <!-- White Chrome Sheen Gradient -->
+    <linearGradient id="whiteSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E8F0FE" />
+    </linearGradient>
+
+    <!-- Rim Light Gradient -->
+    <linearGradient id="rimLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#0080FF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#001550" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow for Elements -->
+    <filter id="subtleShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000D3D" flood-opacity="0.38" />
+    </filter>
+
+    <!-- Outer Ambient Glow for Luxury Edition -->
+    <filter id="luxuryGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0047FF" flood-opacity="0.28" />
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#FFE600" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g >
+    <!-- Container Body -->
+    <rect x="36" y="36" width="440" height="440" rx="98" fill="url(#bgGrad)" />
+    <!-- Inner Rim Stroke -->
+    <rect x="37" y="37" width="438" height="438" rx="97" fill="none" stroke="url(#rimLight)" stroke-width="2.5" />
+  </g>
+
+  <!-- Top-Left Circle (Yellow Accent) -->
+  <circle cx="158" cy="150" r="46" fill="url(#goldGrad)" filter="url(#subtleShadow)" />
+
+  <!-- Top Horizontal Bar -->
+  <path
+    d="M 148 212 H 390 C 410 212 426 196 426 176 V 150 C 426 125 406 105 381 105 H 230 C 210 105 194 121 194 141 V 186 C 194 200 182 212 168 212 Z"
+    fill="url(#whiteSheen)"
+    filter="url(#subtleShadow)"
+  />
+
+  <!-- Middle Interconnected Structural Flow -->
+  <path
+    d="M 122 236 C 122 226 130 218 140 218 H 184 C 199 218 211 230 211 245 V 272 C 211 282 219 290 229 290 H 346 C 361 290 373 278 373 263 V 245 C 373 230 361 218 346 218 H 248 C 238 218 230 210 230 200 V 182 C 230 172 238 164 248 164 H 355 C 389 164 417 192 417 226 V 253 C 417 287 389 315 355 315 H 222 C 207 315 195 303 195 288 V 253 C 195 243 187 235 177 235 H 140 C 130 235 122 243 122 253 V 290 C 122 300 130 308 140 308 H 176"
+    fill="url(#whiteSheen)"
+    filter="url(#subtleShadow)"
+  />
+
+  <!-- Bottom Horizontal Bar -->
+  <path
+    d="M 212 362 H 390 C 410 362 426 378 426 398 V 404 C 426 424 410 440 390 440 H 230 C 205 440 185 420 185 395 V 372 C 185 367 189 362 194 362 Z"
+    fill="url(#whiteSheen)"
+    filter="url(#subtleShadow)"
+  />
+
+  <!-- Bottom-Left Square (Yellow Accent) -->
+  <rect x="114" y="362" width="84" height="84" rx="20" fill="url(#goldGrad)" filter="url(#subtleShadow)" />
+
+      </g>
+
+      <!-- Wordmark Group -->
+      <g transform="translate(660, 0)">
+        <!-- "Smart" in Slate 950 + "Edge" in Electric Blue -->
+        <text x="0" y="320" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Montserrat', 'Inter', sans-serif" font-size="185" font-weight="900" letter-spacing="-3">
+          <tspan fill="#050B24">Smart</tspan><tspan fill="#0047FF">Edge</tspan>
+        </text>
+
+        <!-- "BANGLADESH" Subtitle with Elegant Wide Tracking -->
+        <text x="8" y="440" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Montserrat', 'Inter', sans-serif" font-size="62" font-weight="900" fill="#0047FF" letter-spacing="16">
+          BANGLADESH
+        </text>
+
+        <!-- Divider Line Accent -->
+        <rect x="8" y="480" width="760" height="4" rx="2" fill="#E2E8F0" />
+        <rect x="8" y="480" width="180" height="4" rx="2" fill="#FFE600" />
+
+        <!-- Tagline -->
+        <text x="10" y="540" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="34" font-weight="700" fill="#64748B" letter-spacing="4">
+          ENTERPRISE SOFTWARE &amp; PRODUCT ENGINEERING
+        </text>
+      </g>
+    </svg>
+  
